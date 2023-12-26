@@ -12,59 +12,6 @@ function LandingBottom() {
     setState(index)
   }
 
-  const holidays = [
-    {
-      id: 1,
-      date: "15-Jan",
-      description: 'Tamil Thai Pongal day'
-    },
-    {
-      id: 2,
-      date: "25-Jan",
-      description: 'Full Moon Poya day'
-    },
-    {
-      id: 3,
-      date: "4-Feb",
-      description: 'Independance day'
-    },
-    {
-      id: 4,
-      date: "24-Feb",
-      description: 'Full Moon Poya day'
-    },
-    {
-      id: 5,
-      date: "24-Feb",
-      description: 'Full Moon Poya day'
-    },
-    {
-      id: 6,
-      date: "8-Mar",
-      description: 'Manasiva Rathri'
-    },
-    {
-      id: 7,
-      date: "24-Mar",
-      description: 'Full Moon Poya day'
-    },
-    {
-      id: 8,
-      date: "29-Mar",
-      description: 'Good Friday'
-    },
-    {
-      id: 9,
-      date: "31-Mar",
-      description: 'Easter Sunday'
-    },
-    {
-      id: 10,
-      date: "11-Apr",
-      description: 'Eid al-Filr'
-    },
-  ]
-
 
   return (
       <div className="box p-2">
@@ -101,7 +48,7 @@ function LandingBottom() {
                   <div className={`${state === 1 ? 'content active-content'
                     : 'content'}`}>
                   <div className='text-justify'>
-                <div className='flex'>
+                <div className=' flex flex-col lg:flex-row md:flex-row lg:mt-[1px] md:mt-[2px] sm:mt-[1px] text-justify'>
                         <div>
                           <p className='p-5'><strong className='text-blue-900 text-2xl'>S</strong>ri Lanka observes a variety of holidays and events,
                             reflecting
@@ -115,11 +62,11 @@ function LandingBottom() {
                             are dedicated to Buddhist observances.
                         </p>
                         </div>
-                        <div className='p-1'>
-                                  <Image src='/vacation.jpg' alt='Jan-June Calendar' width={450} height={100}/>
+                        <div className='p-3 item-center'>
+                                  <Image src='/vacation.jpg' alt='Jan-June Calendar' width={250} height={100}/>
                         </div>
                 </div>
-                <div className='flex gap-5 '>
+                <div className='flex flex-col lg:flex-row md:flex-row lg:mt-[1px] md:mt-[2px] sm:mt-[1px] text-justify '>
                   <div >
                     <Image src='/Q1calendar.jpg' alt='Jan-March Calendar' className='rounded-lg' width={450} height={100} />
                   </div>
@@ -143,26 +90,26 @@ function LandingBottom() {
                           <div >
                             <Image src='/foot1.jpg' alt='foot and flower' className='rounded-full' width={200} height={100} />
                           </div>
-                          <p className='p-5'><strong className='text-blue-900 text-2xl'>R</strong> enting a vehicle in Sri Lanka provides diverse options, each offering a unique travel experience.
+                          <p className='p-4'><strong className='text-blue-900 text-2xl'>R</strong> enting a vehicle in Sri Lanka provides diverse options, each offering a unique travel experience.
                             When renting any type of vehicle, it's essential to ensure proper documentation, adhere to local traffic regulations,
                             and consider the type of terrain you'll encounter. Additionally, choosing a reliable rental provider and understanding
                             the terms and conditions of the rental agreement is crucial for a smooth and enjoyable travel experience in Sri Lanka.
                         </p>
           </div>
 
-                <div className="flex p-10 gap-5 text-justify">
+                <div className="flex flex-col lg:flex-row md:flex-row lg:mt-[1px] md:mt-[2px] sm:mt-[1px] text-justify">
                     <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                         <img className="lg:h-72 md:h-48 w-full object-cover object-center"
                             src="/carrent.jpg" alt="car rental"/>
-                        <div className="p-6 hover:bg-blue-950 hover:text-white transition duration-300 ease-in">
+                        <div className="p-2 hover:bg-blue-950 hover:text-white transition duration-300 ease-in">
                             <h2 className="text-base font-medium text-indigo-300 mb-1 text-center"> 4-Wheel</h2>
                             <h1 className="text-2xl font-semibold mb-3 text-center">Car | SUV | Van</h1>
-                            <p className="leading-relaxed mb-3">Renting a car is a popular choice for those seeking comfort and convenience.
+                            <p className="leading-relaxed mb-3">Renting a car is a popular choice for comfort and convenience.
                               International and local car rental companies provide a range of vehicles, from compact cars to SUVs.
                               This option allows for flexibility in exploring Sri Lanka's diverse landscapes, historical sites, and
                   cities at one's own pace.</p>
-                            <p><strong className='text-blue-900 text-1xl'>1.</strong> International Car Rental Companies: Global companies like Hertz, Avis, and Europcar operate in Sri Lanka, providing a wide range of vehicles.</p>
-                            <p><strong className='text-blue-900 text-1xl'>2.</strong> Local Rental Agencies: Casons Rent a Car, Malkey Rent a Car, and SR Rent a Car</p>
+                            <p><strong className='text-blue-900 text-1xl'>1.</strong> International Car Rental: Hertz, Avis, and Europcar.</p>
+                            <p><strong className='text-blue-900 text-1xl'>2.</strong> Local Rental: Casons Rent a Car, Malkey Rent a Car, and SR Rent a Car</p>
                 
                               <div className="flex items-center flex-wrap ">
                                     <Link href="/ContactUs" className="text-indigo-300 inline-flex items-center mt-5 md:mb-2 lg:mb-0"> Rent a Car
@@ -179,7 +126,7 @@ function LandingBottom() {
                     <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                         <img className="lg:h-72 md:h-48 w-full object-cover object-center"
                             src="/tuktukrent.jpg" alt="tuk tuk rental"/>
-                        <div className="p-6 hover:bg-blue-950 hover:text-white transition duration-300 ease-in">
+                        <div className="p-2 hover:bg-blue-950 hover:text-white transition duration-300 ease-in">
                             <h2 className="text-base font-medium text-indigo-300 mb-1 text-center"> 3-Wheel</h2>
                             <h1 className="text-2xl font-semibold mb-3 text-center">Tuk Tuk Rental</h1>
                               <p className="leading-relaxed mb-3">Tuktuks, or three-wheeled motorized rickshaws, are a distinctive mode of
@@ -205,7 +152,7 @@ function LandingBottom() {
                     <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                         <img className="lg:h-72 md:h-48 w-full object-cover object-center"
                             src="/bicyclerent.jpg" alt="bicycle rental"/>
-                        <div className="p-6 hover:bg-blue-950 hover:text-white transition duration-300 ease-in">
+                        <div className="p-2 hover:bg-blue-950 hover:text-white transition duration-300 ease-in">
                             <h2 className="text-base font-medium text-indigo-300 mb-1 text-center"> 2-Wheel</h2>
                             <h1 className="text-2xl font-semibold mb-3 text-center">Bicycle Rental</h1>
                 <p className="leading-relaxed mb-3">For the more adventurous traveler, renting a motorcycle provides a
@@ -238,11 +185,11 @@ function LandingBottom() {
                       Traveling by train and public bus in Sri Lanka is a common and affordable way to explore the country.
           </p>
           
-          <div className="flex p-10 gap-12 text-justify">
+          <div className="flex flex-col lg:flex-row md:flex-row lg:mt-[1px] md:mt-[2px] sm:mt-[1px] text-justify">
                     <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden ">
                         <img className="lg:h-72 md:h-48 w-full object-cover object-center"
                             src="/train.jpg" alt="train tickets"/>
-                        <div className="p-6 hover:bg-blue-950 hover:text-white transition duration-300 ease-in">
+                        <div className="p-2 hover:bg-blue-950 hover:text-white transition duration-300 ease-in">
                             <h2 className="text-base font-medium text-indigo-300 mb-1 text-center"> Scenic | Classes | Tickets</h2>
                             <h1 className="text-2xl font-semibold mb-3 text-center">Train Ride</h1>
                 <p><strong className='text-blue-900 text-1xl'> Scenic </strong> Sri Lanka's railway network offers picturesque train
@@ -255,7 +202,7 @@ function LandingBottom() {
                 <p><strong className='text-blue-900 text-1xl'> Tickets </strong>
                   Tickets can be purchased at railway stations, and it's advisable to book in advance for popular routes.
                   </p>
-                        <div className="flex items-center flex-wrap ">
+                        <div className="items-center flex-wrap ">
                               <Link href="https://seatreservation.railway.gov.lk/mtktwebslr" target='_black' className="text-indigo-300 inline-flex items-center mt-5 md:mb-2 lg:mb-0"> Buy Train tickets online
                                   <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
                                     fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -271,7 +218,7 @@ function LandingBottom() {
                     <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                         <img className="lg:h-72 md:h-48 w-full object-cover object-center"
                             src="/bus.jpg" alt="bus tickets"/>
-                        <div className="p-6 hover:bg-blue-950 hover:text-white transition duration-300 ease-in">
+                        <div className="p-2 hover:bg-blue-950 hover:text-white transition duration-300 ease-in">
                             <h2 className="text-base font-medium text-indigo-300 mb-1 text-center"> Extensive Network | Classes | Affordable |Tickets</h2>
                             <h1 className="text-2xl font-semibold mb-3 text-center">Bus Ride</h1>
                 <p><strong className='text-blue-900 text-1xl'> Network </strong> Public buses cover almost every corner of the island, making them a widely used mode of transportation.
@@ -284,7 +231,7 @@ function LandingBottom() {
                 <p><strong className='text-blue-900 text-1xl'> Tickets </strong>
                   Tickets can be purchased directly from the bus conductor when boarding. For longer journeys or specific routes, it's advisable to confirm the schedule and availability in advance.
                   </p>
-                        <div className="flex items-center flex-wrap ">
+                        <div className="items-center flex-wrap ">
                               <Link href="https://busseat.lk/" target='_blanck' className="text-indigo-300 inline-flex items-center mt-5 md:mb-2 lg:mb-0"> Buy bus tickets online
                                   <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
                                     fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -311,17 +258,17 @@ function LandingBottom() {
             
           </p>
           
-            <div className="flex p-10 gap-12 text-justify">
+            <div className="p-2 gap-2 text-justify items-center">
                     <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden ">
                         <img className="lg:h-72 md:h-48 w-full object-cover object-center"
                             src="/visa.jpg" alt="visa"/>
-                        <div className="p-6 hover:bg-blue-950 hover:text-white transition duration-300 ease-in">
+                        <div className="p-2 hover:bg-blue-950 hover:text-white transition duration-300 ease-in">
                             <h2 className="text-base font-medium text-indigo-300 mb-1 text-center"> ETA | Exemptions | On Arrival | Longer Stay</h2>
                             <h1 className="text-2xl font-semibold mb-3 text-center">VISA</h1>
                 <p><strong className='text-blue-900 text-1xl'> ETA </strong> Electronic Travel Authorization (ETA): Most travelers to Sri Lanka
                   need to obtain an ETA before entering the country. 
                 </p>
-                <div className="flex items-center flex-wrap mb-5 ">
+                <div className="items-center flex-wrap mb-5 ">
                   <Link href="https://srilanka.visaonlinegov.org/apply-visa" target='_black' className="text-indigo-300 inline-flex items-center mt-5 md:mb-2 lg:mb-0">
                     Apply online
                                   <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
@@ -360,11 +307,11 @@ function LandingBottom() {
             
           </p>
           
-            <div className="flex p-10 gap-12 text-justify">
+            <div className="flex p-3 gap-3 text-justify">
                     <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden ">
                         <img className="lg:h-72 md:h-48 w-full object-cover object-center"
                             src="/road.jpg" alt="roads"/>
-                        <div className="p-6 hover:bg-blue-950 hover:text-white transition duration-300 ease-in">
+                        <div className="p-2 hover:bg-blue-950 hover:text-white transition duration-300 ease-in">
                             <h2 className="text-base font-medium text-indigo-300 mb-1 text-center"> License | IDP | Local Rules | Insurance | Renting a Vehicle</h2>
                             <h1 className="text-2xl font-semibold mb-3 text-center">Diver's License </h1>
                 <p><strong className='text-blue-900 text-1xl'> License </strong> <br></br>1. Drive with an IDL/IDP with AA Endorsement: Tourists can drive with an International Drivers License or International Driving Permit (IDP) obtained in their home country.
