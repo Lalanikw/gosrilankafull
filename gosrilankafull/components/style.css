@@ -1,0 +1,77 @@
+.box {
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+}
+.tabs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab {
+    background-color: rgb(66, 86, 139);
+    color: rgb(241, 243, 245);
+    flex:1;
+    padding:10px;
+    text-align: center;
+    border: 1px solid white;
+    border-top: none;
+    cursor: pointer;
+    position: relative;
+    font-weight: 500;
+}
+
+.active-tab{
+    border: none;
+    background: rgb(195, 189, 189);
+    color: black;
+    border-bottom: 1px solid transparent;
+}
+.active-tab::after{
+    
+    content: "";
+    position: absolute;
+    top:0;
+    right:0;
+    bottom: 0;
+    width: 100%;
+    background: initial;
+    animation: new 0.5s;
+}
+
+@keyframes new{
+    from {
+        top:50px;
+        left:0;
+        right:0;
+        background:rgb(1, 1, 78);
+    }
+    to{
+        top:0;
+        left:0;
+        right:0;
+        border-top: 2px solid rgb(9, 9, 9);
+    }
+}
+
+.content-tabs {
+    position: relative;
+}
+.content {
+    display: none;
+    position: relative;
+}
+.active-content{
+    display: block;
+    margin-left:10px;
+    margin-right:10px;
+    transition: all 1s ease-in-out;
+    animation:example 0.3s;
+}
+
+@media screen and (max-width: 768px) and (min-width:481px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
