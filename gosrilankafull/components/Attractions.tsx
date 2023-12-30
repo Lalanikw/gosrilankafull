@@ -10,12 +10,12 @@ function Attractions() {
                     <div className="container px-1 py-1 mx-auto">
                         
                         <div className="flex">
-                            <div className="flex p-3">
-                                <div className=" flex h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                                    <img className="lg:h-60 md:h-48 w-full object-cover object-center pr-1"
-                                        src="/nagadeepa.jpg" alt="Nagadeepa temple"  />
+                            <div className="flex p-1">
+                                <div className=" flex h-full flex-col lg:flex-row md:flex-row lg:mt-[1px] md:mt-[2px] sm:mt-[1px] border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                    <img className="lg:h-60 md:h-48 sm:h-32 w-full object-cover object-center pr-1"
+                                        src="/nagadeepa.jpg" alt="Nagadeepa temple" />
                                     <div></div>
-                                    <div className="p-6">
+                                    <div className="p-3">
                                         <h2 className="text-base font-medium text-indigo-300 mb-1">Jaffna</h2>
                                         <h1 className="text-xl font-semibold mb-1">1. Nagadeepa</h1>
                                         <p className="leading-relaxed mb-2">Nagadeepa, located in the Jaffna District of Sri Lanka,
@@ -46,12 +46,12 @@ function Attractions() {
                     <div className="container px-1 py-1 mx-auto">
                         
                         <div className="flex">
-                            <div className="flex p-3">
-                                <div className=" flex h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <div className="flex p-1">
+                                <div className=" flex h-full flex-col lg:flex-row md:flex-row lg:mt-[1px] md:mt-[2px] sm:mt-[1px] border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                                     <img className="lg:h-60 md:h-48 w-full object-cover object-center pr-1"
                                         src="/kones.jpg" alt="Koneswaram Kovil" width={100} height={100} />
                                     <div></div>
-                                    <div className="p-6">
+                                    <div className="p-3">
                                         <h2 className="text-base font-medium text-indigo-300 mb-1">Trincomalee</h2>
                                         <h1 className="text-xl font-semibold mb-1">2. Koneswaram Kovil</h1>
                                   <p className="leading-relaxed mb-2">The Koneswaram Kovil, situated in Trincomalee, Sri Lanka,
@@ -86,17 +86,17 @@ function Attractions() {
                     <div className="container px-1 py-1 mx-auto">
                         
                         <div className="">
-                            <div className=" p-3">
+                            <div className=" p-1">
                                 <div className=" h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                                     <div className='flex'>
-                                        <img className="lg:h-60 md:h-48 w-full object-cover object-center pr-1"
+                                        <img className="lg:h-60 md:h-48 sm:h-32 w-full object-cover object-center pr-1"
                                         src="/kitesurf.jpg" alt="Kite Surfing" />
-                                        <img className="lg:h-60 md:h-48 w-full object-cover object-center pr-1"
+                                        <img className="lg:h-60 md:h-48 sm:h-32 w-full object-cover object-center pr-1"
                                                     src="/kitesurf1.jpg" alt="Kite Surfing" />
-                                        <img className="lg:h-60 md:h-48 w-full object-cover object-center pr-1"
+                                        <img className="lg:h-60 md:h-48 sm:h-32 w-full object-cover object-center pr-1"
                                             src="/kitesurf2.jpg" alt="Kite Surfing" />
                                     </div>
-                                    <div className="p-6">
+                                    <div className="p-3">
                                         <h2 className="text-base font-medium text-indigo-300 mb-1">Kalpitiya</h2>
                                         <h1 className="text-xl font-semibold mb-1">3. Kite Surfing</h1>
                                   <p className="leading-relaxed mb-2">Kite surfing on the west coast of Sri Lanka is a thrilling
@@ -129,12 +129,12 @@ function Attractions() {
                     <div className="container px-1 py-1 mx-auto">
                         
                         <div className="">
-                            <div className=" p-3">
-                                <div className=" flex h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <div className=" p-1">
+                                <div className=" flex h-full flex-col lg:flex-row md:flex-row lg:mt-[1px] md:mt-[2px] sm:mt-[1px] border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                                     <img className="lg:h-60 md:h-48 w-full object-cover object-center pr-1"
                                         src="/sigiriya.jpg" alt="Sigiriya Lion's rock" />
                                     <div></div>
-                                    <div className="p-6">
+                                    <div className="p-3">
                                         <h2 className="text-base font-medium text-indigo-300 mb-1">Damdulla</h2>
                                         <h1 className="text-xl font-semibold mb-1">4. Sigiriya </h1>
                                   <p className="leading-relaxed mb-2">Sigiriya is an ancient rock fortress and UNESCO
@@ -168,15 +168,15 @@ function Attractions() {
                     <div className="container px-1 py-1 mx-auto">
                         
                         <div className="">
-                            <div className=" p-3">
+                            <div className=" p-1">
                                 <div className=" h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                               <div className='flex'>
-                                  <img className="lg:h-60 md:h-48 w-full object-cover object-center pr-1"
+                                  <img className="lg:h-60 md:h-48 sm:h-32 w-full object-cover object-center pr-1"
                                   src="/dalada.jpg" alt="Kandy Dalada Maligawa" />
-                                    <img className="lg:h-60 md:h-48 w-full object-cover object-center pr-1"
+                                    <img className="lg:h-60 md:h-48 sm:h-32 w-full object-cover object-center pr-1"
                                         src="/kandy.jpg" alt="Kandy Dalada Maligawa" />
                                     </div>
-                                    <div className="p-6">
+                                    <div className="p-3">
                                         <h2 className="text-base font-medium text-indigo-300 mb-1">Kandy</h2>
                                         <h1 className="text-xl font-semibold mb-1">5. Dalada Maligawa</h1>
                                   <p className="leading-relaxed mb-2">The Dalada Maligawa, also known as the Temple of the Tooth,
@@ -209,12 +209,12 @@ function Attractions() {
                     <div className="container px-1 py-1 mx-auto">
                         
                         <div className="">
-                            <div className="flex p-3">
-                                <div className=" flex h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                                    <img className="lg:h-60 md:h-48 w-full object-cover object-center pr-1"
+                            <div className="flex p-1">
+                                <div className=" flex h-full flex-col lg:flex-row md:flex-row lg:mt-[1px] md:mt-[2px] sm:mt-[1px] border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                    <img className="lg:h-60 md:h-48 sm:h-32 w-full object-cover object-center pr-1"
                                         src="/lotus.jpg" alt="Lotus Tower" />
                                     <div></div>
-                                    <div className="p-6">
+                                    <div className="p-3">
                                         <h2 className="text-base font-medium text-indigo-300 mb-1">Colombo</h2>
                                         <h1 className="text-xl font-semibold mb-1">6. Lotus Tower</h1>
                                   <p className="leading-relaxed mb-2">The Lotus Tower, located in Colombo, Sri Lanka,
@@ -249,18 +249,18 @@ function Attractions() {
                     <div className="container px-1 py-1 mx-auto">
                         
                         <div className="">
-                            <div className="flex p-3">
-                                <div className=" h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <div className="flex p-1">
+                                <div className=" h-full flex-col lg:flex-row md:flex-row lg:mt-[1px] md:mt-[2px] sm:mt-[1px] border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                                      <div className='flex'>
-                                            <img className="lg:h-60 md:h-48 w-full object-cover object-center pr-1"
+                                            <img className="lg:h-60 md:h-48 sm:h-32 w-full object-cover object-center pr-1"
                                             src="/sripada.jpg" alt="SriPada Adam's Peak" />
-                                            <img className="lg:h-60 md:h-48 w-full object-cover object-center pr-1"
+                                            <img className="lg:h-60 md:h-48 sm:h-32 w-full object-cover object-center pr-1"
                                                 src="/sripada1.jpg" alt="SriPada Adam's Peak" />
-                                            <img className="lg:h-60 md:h-48 w-full object-cover object-center pr-1"
+                                            <img className="lg:h-60 md:h-48 sm:h-32 w-full object-cover object-center pr-1"
                                                 src="/sripada2.jpg" alt="SriPada Adam's Peak" />
                               
                                     </div>
-                                    <div className="p-6 ">
+                                    <div className="p-3 ">
                                         <h2 className="text-base font-medium text-indigo-300 mb-1">Hatton</h2>
                                         <h1 className="text-xl font-semibold mb-1">7. Sripada</h1>
                                   <p className="leading-relaxed mb-2">Sripada, also known as Adam's Peak,
@@ -300,12 +300,12 @@ function Attractions() {
               <div className="container px-1 py-1 mx-auto">
                         
                         <div className="flex">
-                            <div className="flex p-3">
-                                <div className=" flex h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                                    <img className="lg:h-60 md:h-48 w-full object-cover object-center pr-1"
+                            <div className="flex p-1">
+                                <div className=" flex h-full flex-col lg:flex-row md:flex-row lg:mt-[1px] md:mt-[2px] sm:mt-[1px] border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                    <img className="lg:h-60 md:h-48 sm:h-32 w-full object-cover object-center pr-1"
                                         src="/ella.jpg" alt="Ella" />
                                     <div></div>
-                                    <div className="p-6 ">
+                                    <div className="p-3">
                                         <h2 className="text-base font-medium text-indigo-300 mb-1">Haputale</h2>
                                         <h1 className="text-xl font-semibold mb-1">8. Ella</h1>
                                   <p className="leading-relaxed mb-2">Ella, nestled in the picturesque hill country of
@@ -338,12 +338,12 @@ function Attractions() {
                     <div className="container px-1 py-1 mx-auto">
                         
                         <div className="flex">
-                            <div className="flex p-3">
-                                <div className=" flex h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                                    <img className="lg:h-60 md:h-48 w-full object-cover object-center pr-1"
+                            <div className="flex p-1">
+                                <div className=" flex h-full flex-col lg:flex-row md:flex-row lg:mt-[1px] md:mt-[2px] sm:mt-[1px] border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                    <img className="lg:h-60 md:h-48 sm:h-32 w-full object-cover object-center pr-1"
                                         src="/arugambay.jpg" alt="Arugambay surfing" />
                                     <div></div>
-                                    <div className="p-6">
+                                    <div className="p-3">
                                         <h2 className="text-base font-medium text-indigo-300 mb-1">Potuvil</h2>
                                         <h1 className="text-xl font-semibold mb-1">9. Arugam Bay </h1>
                                   <p className="leading-relaxed mb-2">Arugam Bay, located on the east coast of Sri Lanka,
@@ -377,12 +377,12 @@ function Attractions() {
                     <div className="container px-1 py-1 mx-auto">
                         
                         <div className="flex">
-                            <div className="flex p-3">
-                                <div className=" flex h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                                    <img className="lg:h-60 md:h-48 w-full object-cover object-center pr-1"
+                            <div className="flex p-1">
+                                <div className=" flex h-full flex-col lg:flex-row md:flex-row lg:mt-[1px] md:mt-[2px] sm:mt-[1px] border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                    <img className="lg:h-60 md:h-48 sm:h-32 w-full object-cover object-center pr-1"
                                         src="/yala.jpg" alt="yala national park" />
                                     <div></div>
-                                    <div className="p-6 ">
+                                    <div className="p-3 ">
                                         <h2 className="text-base font-medium text-indigo-300 mb-1">Tissamaharama</h2>
                                         <h1 className="text-xl font-semibold mb-1">10. Yala National Park</h1>
                                   <p className="leading-relaxed mb-2">Yala National Park, situated in the southeastern region of Sri
@@ -413,12 +413,12 @@ function Attractions() {
                     <div className="container px-1 py-1 mx-auto">
                         
                         <div className="flex">
-                            <div className="flex p-3">
-                                <div className=" flex h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                                    <img className="lg:h-60 md:h-48 w-full object-cover object-center pr-1"
+                            <div className="flex p-1">
+                                <div className=" flex h-full flex-col lg:flex-row md:flex-row lg:mt-[1px] md:mt-[2px] sm:mt-[1px] border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                    <img className="lg:h-60 md:h-48 sm:h-32 w-full object-cover object-center pr-1"
                                         src="/mirissa.jpg" alt="Mirissa" />
                                     <div></div>
-                                    <div className="p-6 ">
+                                    <div className="p-3 ">
                                         <h2 className="text-base font-medium text-indigo-300 mb-1"> Matara</h2>
                                         <h1 className="text-xl font-semibold mb-1">11. Mirissa</h1>
                                   <p className="leading-relaxed mb-2">Mirissa, located on the southern coast of Sri Lanka,
@@ -453,17 +453,17 @@ function Attractions() {
                     <div className="container px-1 py-1 mx-auto">
                         
                         <div className="">
-                            <div className="flex p-3">
-                                <div className=" h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <div className="flex p-1">
+                                <div className=" h-full flex-col lg:flex-row md:flex-row lg:mt-[1px] md:mt-[2px] sm:mt-[1px] border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                               <div className='flex'>
-                                  <img className="lg:h-60 md:h-48 w-full object-cover object-center pr-1"
+                                  <img className="lg:h-60 md:h-48 sm:h-32 w-full object-cover object-center pr-1"
                                   src="/fort2.jpg" alt="Galle Dutch Fort" />
-                              <img className="lg:h-60 md:h-48 w-full object-cover object-center pr-1"
+                              <img className="lg:h-60 md:h-48 sm:h-32 w-full object-cover object-center pr-1"
                                   src="/fort.jpg" alt="Galle Dutch Fort" />
-                              <img className="lg:h-60 md:h-48 w-full object-cover object-center pr-1"
+                              <img className="lg:h-60 md:h-48 sm:h-32 w-full object-cover object-center pr-1"
                                         src="/fort3.jpg" alt="Galle Dutch Fort" />
                                     </div>
-                                    <div className="p-6">
+                                    <div className="p-3">
                                         <h2 className="text-base font-medium text-indigo-300 mb-1">Galle</h2>
                                         <h1 className="text-xl font-semibold mb-1">12. Dutch Fort</h1>
                                   <p className="leading-relaxed mb-2">The Galle Dutch Fort, located on the southwest

@@ -46,8 +46,7 @@ function Header() {
                                 ><Link href='/'>Home</Link></li>
                                 <li className='p-3 text-[18px] font-semibold text-black-100 cursor-pointer hover:text-blue-700 hover:text-2xl'
                                 ><Link href='/Places'>Places</Link></li>
-                                <li className='p-3 text-[18px] font-semibold text-black-100 cursor-pointer hover:text-blue-700 hover:text-2xl'
-                                ><Link href='/Information'> Information</Link> </li>
+                                
                                 <li className='p-3 text-[18px] font-semibold text-black-100 cursor-pointer hover:text-blue-700 hover:text-2xl'
                                 ><Link href='/ContactUs'> Contact Us</Link> </li>
                          </ul> : null}
