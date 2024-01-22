@@ -1,7 +1,7 @@
 "use client"
 
-import Landing from '@/components/Landing'
-import LandingBottom from '@/components/LandingBottom';
+import Landing from '../components/Landing'
+import LandingBottom from '../components/LandingBottom';
 import Image from 'next/image';
 import Link from 'next/link';
 

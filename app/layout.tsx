@@ -3,9 +3,9 @@
 import type { Metadata } from 'next'
 import { Raleway } from 'next/font/google'
 import './globals.css'
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
-import ChatBot from '@/components/Chatbot';
+import Header from '../components/Header'
+import Footer from '../components/Footer'
+import ChatBot from '../components/Chatbot';
 
 
 const raleway = Raleway ({subsets:['latin']})
