@@ -1,0 +1,50 @@
+{
+  "name": "gosrilankafull",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fullcalendar/core": "^6.1.10",
+    "@fullcalendar/daygrid": "^6.1.10",
+    "@fullcalendar/interaction": "^6.1.10",
+    "@fullcalendar/react": "^6.1.10",
+    "@fullcalendar/timegrid": "^6.1.10",
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
+    "@mui/material": "^5.15.0",
+    "@mui/x-date-pickers": "^6.18.5",
+    "@react-google-maps/api": "^2.19.2",
+    "@react-navigation/native": "^6.1.9",
+    "axios": "^1.6.2",
+    "date-fns": "^2.30.0",
+    "dayjs": "^1.11.10",
+    "js-year-calendar": "^2.0.0",
+    "mongoose": "^8.0.2",
+    "next": "14.0.3",
+    "next-videos": "^1.4.1",
+    "react": "^18",
+    "react-datetime": "^3.2.0",
+    "react-dom": "^18",
+    "react-icons": "^4.12.0",
+    "react-router-dom": "^6.20.1",
+    "react-social-icons": "^6.7.0",
+    "sharp": "^0.33.1"
+  },
+  "devDependencies": {
+    "@types/next": "^9.0.0",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "file-loader": "^6.2.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.6"
+  }
+}
