@@ -1,6 +1,6 @@
 
 import connectDB from "../../lib/mongodb";
-import Contact from "../../app/models/contact";
+import Contact from "../../models/contact";
 import {NextResponse} from "next/server";
 import mongoose from "mongoose";
 

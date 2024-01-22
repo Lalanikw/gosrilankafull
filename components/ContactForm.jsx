@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, FormEvent } from "react";
+import './Contactform.css'
 
 export default function ContactForm() {
   const [fullname, setFullname] = useState("");
@@ -43,7 +44,7 @@ export default function ContactForm() {
     <div>
       <form
         onSubmit={handleSubmit}
-        className="py-4 mt-4 border-t flex flex-col gap-5"
+        className=""
       >
         <div>
           <label htmlFor="fullname">Full Name*</label>
@@ -78,12 +79,12 @@ export default function ContactForm() {
           ></textarea>
         </div>
 
-        <button className="bg-blue-900 p-3 text-white font-bold" type="submit">
+        <button className="" type="submit">
           Send
         </button>
       </form>
 
-      <div className="bg-slate-100 flex flex-col">
+      <div className="">
         {error &&
           error.map((e) => (
             <div

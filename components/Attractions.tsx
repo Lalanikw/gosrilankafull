@@ -1,9 +1,10 @@
 import React from 'react'
 import Link from 'next/link'
+import './Attractions.css'
 
 function Attractions() {
   return (
-      <section className="md:h-full items-center text-gray-600 mt-10 text-justify ">
+      <section className=" ">
           <h5 className="text-base md:text-lg text-indigo-700 mb-3 mt-5 text-center"> History | Beaches | Water Sports | Culture | VISA | Driver License </h5>
                   <h1 className="text-3xl md:text-4xl text-gray-700 font-semibold text-center mb-5">Discover Sri Lanka</h1>
           <div className=''>
