@@ -1,13 +1,12 @@
 "use client"
 
-import Hero from '@/components/Hero'
+import Hero from '../../components/Hero'
 import React from 'react'
 import { useEffect, useState } from 'react'
-import PlaceList from '@/components/PlaceList'
-import GoogleMapView from '@/components/GoogleMapView'
-import { PlaceListContext } from '@/context/PlaceListContext'
-import Main from '@/components/Main'
-import Attractions from '@/components/Attractions'
+import PlaceList from '../../components/PlaceList'
+import GoogleMapView from '../../components/GoogleMapView'
+import { PlaceListContext } from '../../context/PlaceListContext'
+import Attractions from '../../components/Attractions'
 
 function page() {
 
