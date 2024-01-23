@@ -1,0 +1,25 @@
+.footer-inner {
+    display: flex;
+    justify-content:space-around ;
+    background-color: black;
+    color: white;
+}
+
+.SS-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.follow {
+    margin-left: 10px;
+}
+
+.social-icons {
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.social-icons li {
+    margin-right: 10px;
+}

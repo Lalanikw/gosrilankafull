@@ -1,0 +1,41 @@
+h5 {
+    font-size: 1.2rem;
+}
+
+.Attractions-top-text  {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.nagadeepa {
+    display: flex;
+}
+
+.nagadeepa img {
+    padding: 10px;
+}
+.nagadeepa-text {
+    padding: 10px;
+    text-align: justify;
+}
+.nagadeepa-text h4{
+    margin: 0px;
+}
+
+.kite-surf-title{
+    text-align: center;
+}
+.kite-surf {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+.Dalada-text {
+    text-align: center;
+}
+.lotus-text {
+    padding: 50px;
+}
+.galle {
+    padding-bottom: 20px;
+}

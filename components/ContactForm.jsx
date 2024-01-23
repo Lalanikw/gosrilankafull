@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState, FormEvent } from "react";
-import './Contactform.css'
 
 export default function ContactForm() {
   const [fullname, setFullname] = useState("");
