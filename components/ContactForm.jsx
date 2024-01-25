@@ -43,7 +43,7 @@ export default function ContactForm() {
     <div>
       <form
         onSubmit={handleSubmit}
-        className=""
+        className="py-4 mt-4 border-t flex flex-col gap-5"
       >
         <div>
           <label htmlFor="fullname">Full Name*</label>
@@ -78,12 +78,12 @@ export default function ContactForm() {
           ></textarea>
         </div>
 
-        <button className="" type="submit">
+        <button className="bg-blue-900 p-3 text-white font-bold" type="submit">
           Send
         </button>
       </form>
 
-      <div className="">
+      <div className="bg-slate-100 flex flex-col">
         {error &&
           error.map((e) => (
             <div
