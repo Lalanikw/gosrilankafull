@@ -17,8 +17,7 @@ function Marker() {
                             width: 50,
                             height:50
                         },
-                }}>
-
+                    }}>
             </MarkerF>
             ))}
 

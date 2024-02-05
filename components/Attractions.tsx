@@ -4,7 +4,7 @@ import Link from 'next/link'
 function Attractions() {
   return (
       <section className=" ">
-          <h5 className="text-base md:text-lg text-indigo-700 mb-3 mt-5 text-center"> History | Beaches | Water Sports | Culture | VISA | Driver License </h5>
+          <h5 className="text-base md:text-lg text-indigo-700 mb-4 mt-5 text-center"> History | Beaches | Water Sports | Culture | VISA | Driver License </h5>
                   <h1 className="text-3xl md:text-4xl text-gray-700 font-semibold text-center mb-5">Discover Sri Lanka</h1>
           <div className=''>
                     <div className="container px-1 py-1 mx-auto">

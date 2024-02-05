@@ -43,8 +43,7 @@ export default function ContactForm() {
     <div>
       <form
         onSubmit={handleSubmit}
-        className="py-4 mt-4 border-t flex flex-col gap-5"
-      >
+        className="py-4 mt-4 border-t flex flex-col gap-5" >
         <div>
           <label htmlFor="fullname">Full Name*</label>
           <input
@@ -52,8 +51,7 @@ export default function ContactForm() {
             value={fullname}
             type="text"
             id="fullname"
-            placeholder="John Doe"
-          />
+            placeholder="John Doe"  />
         </div>
 
         <div>
@@ -89,9 +87,7 @@ export default function ContactForm() {
             <div
               className={`${
                 success ? "text-green-800" : "text-red-600"
-              } px-5 py-2`}
-            >
-              {e}
+              } px-5 py-2`} > {e}
             </div>
           ))}
       </div>

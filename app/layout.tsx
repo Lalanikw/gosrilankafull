@@ -25,7 +25,6 @@ export default function RootLayout({
     <>
       <html lang="en">
         <head>
-
           <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
           <style>
             {`
