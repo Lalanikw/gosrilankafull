@@ -7,12 +7,11 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import ChatBot from '../components/Chatbot';
 
-
 const raleway = Raleway ({subsets:['latin']})
 
  const metadata = {
-  title: 'Sri Lanka| Travel Information',
-  description: 'Sri Lanka travel information site. Search for places to see, stay and eat. Find information such as VISA and Driving Licensing.Read about the history and current situation of the Island. Plan for weddings, events and photography. Reach out for trip tips from locals'
+  title: 'Sri Lanka | Travel Information',
+  description: 'Sri Lanka travel information site. Search for places to see, stay and eat. Find information such as VISA and Driving Licensing.Read about the history and current situation of the Island. Plan for weddings, events and photography. Checkout the major festivals. Reach out for trip tips from locals'
  }
 
 export default function RootLayout({
@@ -25,6 +24,10 @@ export default function RootLayout({
     <>
       <html lang="en">
         <head>
+          <title>{metadata.title}</title>
+          <meta name="description" content={metadata.description} />
+          
+          <link rel="icon" href='/logo.jpg'/>
           <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
           <style>
             {`

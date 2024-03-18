@@ -10,30 +10,22 @@ function Attractions() {
                     <div className="container px-1 py-1 mx-auto">
                         
                         <div className="flex">
-                            <div className="flex p-1">
-                                <div className=" flex h-full flex-col lg:flex-row md:flex-row lg:mt-[1px] md:mt-[2px] sm:mt-[1px] border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <div className="flex  p-1">
+                                <div className=" flex h-full lg:flex-row md:flex-row lg:mt-[1px] md:mt-[2px] sm:mt-[1px] border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                                     <img className="lg:h-60 md:h-48 sm:h-32 w-full object-cover object-center pr-1"
                                         src="/nagadeepa.jpg" alt="Nagadeepa temple" />
-                                    <div></div>
+                                    
                                     <div className="p-3">
                                         <h2 className="text-base font-medium text-indigo-300 mb-1">Jaffna</h2>
                                         <h1 className="text-xl font-semibold mb-1">1. Nagadeepa</h1>
-                                        <p className="leading-relaxed mb-2">Nagadeepa, located in the Jaffna District of Sri Lanka,
-                                            is an important religious and historical site. The region is known for its two significant
-                                            Buddhist temples, Nagadeepa Purana Viharaya and Nagadeepa Rajamaha Viharaya, which are believed
-                                            to have been visited by Lord Buddha during his second and third visits to Sri Lanka. Pilgrims and
-                                            tourists are drawn to Nagadeepa for its cultural and religious significance, and the island is
-                                            accessible by boat from the Jaffna Peninsula. The serene surroundings, ancient ruins, and religious
-                                            structures contribute to the spiritual and historical allure of Nagadeepa.
+                                  <p className="leading-relaxed mb-2">Nagadeepa, situated in Jaffna, Sri Lanka, holds significant historical and religious importance. This sacred site is home to a Buddhist temple believed to have been visited by the Buddha himself during his second visit to Sri Lanka.
+                                      According to legend, the Buddha intervened to end a dispute between two Naga (serpent) kings, father-in-law and son, who were vying for possession of a gem-studded throne.
+                                      As a result of the Buddha's intervention, harmony was restored, and peace prevailed.
+                                  </p>
+                                  <p className="leading-relaxed mb-2">Accessing Nagadeepa requires a boat journey, adding to its mystical allure and spiritual journey. As visitors approach the temple, they are greeted by the serene ambiance and the rich scent of incense. Devotees and pilgrims from all walks of life come to pay their respects, seeking blessings and guidance. Adjacent to the Buddhist temple, there stands a prominent Hindu Kovil dedicated to Skanda, the son of Lord Shiva.
+                                      This coexistence of Buddhist and Hindu places of worship is a testament to the cultural diversity and religious harmony found in Sri Lanka.
                                         </p>
                                             <div className="flex items-center flex-wrap ">
-                                        {/* <Link href="/Places" className="text-indigo-300 inline-flex items-center md:mb-2 lg:mb-0"> Search details
-                                            <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
-                                                fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M5 12h14"></path>
-                                                <path d="M12 5l7 7-7 7"></path>
-                                            </svg>
-                                            </Link> */}
                                             </div>
                                     </div>
                                 </div>
@@ -54,24 +46,13 @@ function Attractions() {
                                     <div className="p-3">
                                         <h2 className="text-base font-medium text-indigo-300 mb-1">Trincomalee</h2>
                                         <h1 className="text-xl font-semibold mb-1">2. Koneswaram Kovil</h1>
-                                  <p className="leading-relaxed mb-2">The Koneswaram Kovil, situated in Trincomalee, Sri Lanka,
-                                      is a prominent Hindu temple with a rich history dating back centuries. Perched on Swami
-                                      Rock overlooking the Indian Ocean, the temple is dedicated to Lord Shiva. The original
-                                      structure was said to be grand and was a renowned pilgrimage site. However, it faced destruction
-                                      during colonial periods. The present-day kovil, reconstructed in the 20th century, is a vibrant
-                                      and revered religious site for Hindus. With its stunning coastal location and intricate architecture,
-                                      Koneswaram Kovil attracts devotees, tourists, and those interested in the cultural and historical
-                                      heritage of Sri Lanka.
-                                      
-                                        </p>
+                                  <p className="leading-relaxed mb-2">Koneshwaram Kovil, nestled in Trincomalee, Sri Lanka, is a Hindu temple dedicated to Lord Shiva, known here as Konesar. This ancient temple holds deep spiritual significance for devotees who flock here seeking blessings and solace. Perched atop Swami Rock overlooking the Indian Ocean, Koneshwaram Kovil offers breathtaking panoramic views, adding to its allure as a sacred sanctuary.
+                                  </p>
+                                  <p className="leading-relaxed mb-2">Trincomalee, renowned for its pristine beaches, boasts some of the most stunning coastal stretches in Sri Lanka. Nilaveli Beach beckons visitors with its miles of soft golden sands and crystal-clear turquoise waters, perfect for sunbathing, swimming, and water sports. Nearby, Pigeon Island National Park presents a haven for snorkelers and divers, showcasing vibrant coral reefs teeming with marine life.
+                                  </p>
+                                  
                                             <div className="flex items-center flex-wrap ">
-                                        {/* <Link href="/Places" className="text-indigo-300 inline-flex items-center md:mb-2 lg:mb-0"> Search details
-                                            <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
-                                                fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M5 12h14"></path>
-                                                <path d="M12 5l7 7-7 7"></path>
-                                            </svg>
-                                            </Link> */}
+                                        
                                             </div>
                                     </div>
                                 </div>
@@ -110,13 +91,6 @@ function Attractions() {
                                       
                                         </p>
                                             <div className="flex items-center flex-wrap ">
-                                        {/* <Link href="/Places" className="text-indigo-300 inline-flex items-center md:mb-2 lg:mb-0"> Search details
-                                            <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
-                                                fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M5 12h14"></path>
-                                                <path d="M12 5l7 7-7 7"></path>
-                                            </svg>
-                                            </Link> */}
                                             </div>
                                     </div>
                                 </div>
@@ -137,23 +111,14 @@ function Attractions() {
                                     <div className="p-3">
                                         <h2 className="text-base font-medium text-indigo-300 mb-1">Damdulla</h2>
                                         <h1 className="text-xl font-semibold mb-1">4. Sigiriya </h1>
-                                  <p className="leading-relaxed mb-2">Sigiriya is an ancient rock fortress and UNESCO
-                                      World Heritage Site located in central Sri Lanka. Rising dramatically from the surrounding
-                                      landscape, it features a colossal rock plateau with ruins of a royal palace at its summit.
-                                      Also known as the "Lion's Rock," Sigiriya is renowned for its historical and cultural significance,
-                                      dating back to the 5th century. The site boasts intricate frescoes, the iconic Lion Gate entrance,
-                                      and a mesmerizing view of the surrounding landscapes. Sigiriya stands as a testament to Sri Lanka's
-                                      rich history, attracting visitors with its architectural marvels and captivating archaeological treasures.
-                                      
-                                        </p>
+                                  <p className="leading-relaxed mb-2">Sigiriya, a UNESCO World Heritage Site nestled in the heart of Sri Lanka, is famed for its iconic Lion's Rock and rich cultural heritage. This ancient fortress holds a fascinating history, particularly associated with King Kashyapa, who ruled during the 5th century AD. Legend has it that King Kashyapa, driven by ambition and desire for power, usurped the throne by killing his father, King Dhatusena. Seeking to establish his kingdom, King Kashyapa built his royal palace atop Sigiriya Rock, surrounded by elaborate gardens and water features.
+                                  </p>
+                                  <p className="leading-relaxed mb-2">One of the most remarkable features of Sigiriya is its sophisticated water technology, which allowed for the channeling of water to the summit of the rock. This engineering marvel facilitated the creation of lush gardens and ponds, contributing to the fortress's grandeur and aesthetic appeal.
+                                  </p>
+                                  <p className="leading-relaxed mb-2">The rock fortress is adorned with ancient frescoes, showcasing vibrant paintings of celestial maidens, known as the Sigiriya Frescoes. These exquisite artworks offer a glimpse into the artistic prowess and cultural sophistication of the ancient inhabitants of Sigiriya.
+                                  </p>
                                             <div className="flex items-center flex-wrap ">
-                                        {/* <Link href="/Places" className="text-indigo-300 inline-flex items-center md:mb-2 lg:mb-0"> Search details
-                                            <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
-                                                fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M5 12h14"></path>
-                                                <path d="M12 5l7 7-7 7"></path>
-                                            </svg>
-                                            </Link> */}
+                                       
                                             </div>
                                     </div>
                                 </div>
@@ -165,38 +130,28 @@ function Attractions() {
           </div>
 
           <div className=''>
-                    <div className="container px-1 py-1 mx-auto">
+                    <div className="container px-1 py-2 mx-auto">
                         
                         <div className="">
                             <div className=" p-1">
                                 <div className=" h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                               <div className='flex'>
-                                  <img className="lg:h-60 md:h-48 sm:h-32 w-full object-cover object-center pr-1"
+                                  <img className="lg:h-96 md:h-72 sm:h-48 w-full object-cover object-center pr-1"
                                   src="/dalada.jpg" alt="Kandy Dalada Maligawa" />
-                                    <img className="lg:h-60 md:h-48 sm:h-32 w-full object-cover object-center pr-1"
-                                        src="/kandy.jpg" alt="Kandy Dalada Maligawa" />
+                                    <img className="lg:h-96 md:h-72 sm:h-48 w-full object-cover object-center pr-1"
+                                        src="/elep.JPG" alt="Kandy Dalada Maligawa" />
                                     </div>
                                     <div className="p-3">
                                         <h2 className="text-base font-medium text-indigo-300 mb-1">Kandy</h2>
                                         <h1 className="text-xl font-semibold mb-1">5. Dalada Maligawa</h1>
-                                  <p className="leading-relaxed mb-2">The Dalada Maligawa, also known as the Temple of the Tooth,
-                                      is a sacred Buddhist temple located in Kandy, Sri Lanka. Recognized as a UNESCO World Heritage Site,
-                                      the temple houses a revered relic—the tooth of the Buddha. The Dalada Maligawa is a significant
-                                      pilgrimage site and a cultural symbol in Sri Lanka, drawing devotees and visitors alike. Its
-                                      architecture is characterized by intricate carvings, and the temple complex includes shrines,
-                                      prayer halls, and a museum. The annual Esala Perahera, a grand procession featuring traditional
-                                      dancers and adorned elephants, is a highlight that revolves around the veneration of the sacred tooth relic.
-                                      The Dalada Maligawa stands as a testament to the island's rich Buddhist heritage and cultural legacy.
-                                      
-                                        </p>
+                                  <p className="leading-relaxed mb-2">Kandy, nestled in the heart of Sri Lanka, holds profound historical and cultural significance, making it a cherished destination for travelers and pilgrims alike. At its center lies the revered Temple of the Tooth Relic, known as Dalada Maligawa, which houses the sacred tooth relic of Lord Buddha. This relic is believed to be one of the most sacred objects in Buddhism, embodying spiritual power and protection. The temple complex, with its intricate architecture and serene ambiance, serves as a sanctuary for devotees who come to pay homage to the sacred relic and seek blessings for prosperity and peace.
+                                  </p>
+                                  <p className="leading-relaxed mb-2">One of the most spectacular events in Kandy is the Esala Perahera, a grand procession that takes place annually to honor the sacred tooth relic. This vibrant cultural festival features elaborately adorned elephants, traditional dancers, drummers, and fire performers parading through the streets of Kandy in a magnificent display of devotion and celebration. The Esala Perahera is not only a religious event but also a cultural extravaganza that draws thousands of spectators from around the world.
+                                  </p>
+                                  <p className="leading-relaxed mb-2">In addition to its religious and natural attractions, Kandy offers a wealth of other experiences for visitors to enjoy. The Royal Botanical Gardens in Peradeniya showcase an impressive collection of tropical flora, including orchids, palms, and medicinal plants. The Kandy Lake, situated in the heart of the city, provides a tranquil setting for leisurely strolls and boat rides. Visitors can also explore the bustling streets of Kandy, filled with bustling markets, artisan workshops, and culinary delights, offering a glimpse into the vibrant culture and heritage of Sri Lanka.
+                                  </p>
                                             <div className="flex items-center flex-wrap ">
-                                        {/* <Link href="/Places" className="text-indigo-300 inline-flex items-center md:mb-2 lg:mb-0"> Search details
-                                            <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
-                                                fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M5 12h14"></path>
-                                                <path d="M12 5l7 7-7 7"></path>
-                                            </svg>
-                                            </Link> */}
+                                        
                                             </div>
                                     </div>
                                 </div>
@@ -206,35 +161,31 @@ function Attractions() {
                         </div>
                     </div>
 
+                   <div className=''>
                     <div className="container px-1 py-1 mx-auto">
                         
                         <div className="">
                             <div className="flex p-1">
-                                <div className=" flex h-full flex-col lg:flex-row md:flex-row lg:mt-[1px] md:mt-[2px] sm:mt-[1px] border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                                    <img className="lg:h-60 md:h-48 sm:h-32 w-full object-cover object-center pr-1"
-                                        src="/lotus.jpg" alt="Lotus Tower" />
-                                    <div></div>
+                                <div className=" h-full flex-col lg:flex-row md:flex-row lg:mt-[1px] md:mt-[2px] sm:mt-[1px] border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                              <div className='flex'>
+                                  <img className="lg:h-72 md:h-60 sm:h-48 w-full object-cover object-center pr-1"
+                                  src="/ad_bridge.jpg" alt="Adam's Bridge Mannar" />
+                              <img className="lg:h-72 md:h-60 sm:h-48 w-full object-cover object-center pr-1"
+                                  src="/fle.jpg" alt="Mannar Baobab tree" />
+                             
+                                    </div>
                                     <div className="p-3">
-                                        <h2 className="text-base font-medium text-indigo-300 mb-1">Colombo</h2>
-                                        <h1 className="text-xl font-semibold mb-1">6. Lotus Tower</h1>
-                                  <p className="leading-relaxed mb-2">The Lotus Tower, located in Colombo, Sri Lanka,
-                                      is a prominent architectural landmark and telecommunication tower. Standing at a
-                                      height of 350 meters (1,150 feet), it is one of the tallest structures in South Asia.
-                                      Completed in 2019, the tower is named for its lotus flower-inspired design, with its shape
-                                      symbolizing purity and cultural significance. The Lotus Tower serves as a multi-functional building,
-                                      housing telecommunication equipment, observation decks, a museum, restaurants, and other facilities.
-                                      Offering panoramic views of Colombo, it has become a popular attraction for both locals and tourists,
-                                      combining modern technology with cultural aesthetics in the heart of the city.
-                                      
-                                        </p>
+                                        <h2 className="text-base font-medium text-indigo-300 mb-1">Mannar</h2>
+                                        <h1 className="text-xl font-semibold mb-1">6. Adam's Bridge</h1>
+                                      <p className="leading-relaxed mb-2">The Adam's Bridge, also known as Rama's Bridge or Rama Setu. This chain of limestone shoals and sandbanks stretches between Mannar Island in Sri Lanka and Pamban Island in India. According to Hindu mythology, this bridge was built by Lord Rama's army of monkeys and bears to reach the kingdom of Lanka, now identified with modern-day Sri Lanka. The Adam's Bridge serves as a significant cultural and religious landmark, drawing visitors who come to marvel at its natural beauty and historical significance.
+                                      </p>
+                                      <p className="leading-relaxed mb-2">Mannar also holds historical significance as a former pearl harbor during the time of Portuguese and Muslim merchants. Remnants of this colonial past can still be seen in the fortifications and architecture found in the area. Additionally, Mannar boasts a unique baobab tree, believed to be over 700 years old, which stands as a majestic testament to the region's enduring legacy and natural beauty.
+                                      </p>
+                                      <p className="leading-relaxed mb-2">Religious sites such as the Madu Kovil and Thesawalamai Shiva Kovil further enrich Mannar's cultural landscape. These temples hold significance for both Hindu and Buddhist devotees, offering a glimpse into the region's multicultural heritage and spiritual traditions.
+                                      </p>
+                                      <p className="leading-relaxed mb-2">Mannar's coastal wetlands are renowned for their biodiversity, attracting a plethora of migratory birds, including flamingos, herons, and pelicans, among others. The region's mangrove forests, salt pans, and lagoons provide vital habitats for these avian visitors, making Mannar a paradise for birdwatchers and nature enthusiasts alike.
+                                      </p>
                                             <div className="flex items-center flex-wrap ">
-                                        {/* <Link href="/Places" className="text-indigo-300 inline-flex items-center md:mb-2 lg:mb-0"> Search details
-                                            <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
-                                                fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M5 12h14"></path>
-                                                <path d="M12 5l7 7-7 7"></path>
-                                            </svg>
-                                            </Link> */}
                                             </div>
                                     </div>
                                 </div>
@@ -243,6 +194,7 @@ function Attractions() {
                             
                         </div>
                     </div>
+          </div>
           </div>
 
           <div className=''>
@@ -281,13 +233,6 @@ function Attractions() {
                                       
                                         </p>
                                             <div className="flex items-center flex-wrap ">
-                                        {/* <Link href="/Places" className="text-indigo-300 inline-flex items-center md:mb-2 lg:mb-0"> Search details
-                                            <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
-                                                fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M5 12h14"></path>
-                                                <path d="M12 5l7 7-7 7"></path>
-                                            </svg>
-                                            </Link> */}
                                             </div>
                                     </div>
                                 </div>
@@ -301,23 +246,18 @@ function Attractions() {
                         
                         <div className="flex">
                             <div className="flex p-1">
-                                <div className=" flex h-full flex-col lg:flex-row md:flex-row lg:mt-[1px] md:mt-[2px] sm:mt-[1px] border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                <div className=" flex h-full lg:flex-row md:flex-row lg:mt-[1px] md:mt-[2px] sm:mt-[1px] border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                                     <img className="lg:h-60 md:h-48 sm:h-32 w-full object-cover object-center pr-1"
                                         src="/ella.jpg" alt="Ella" />
-                                    <div></div>
                                     <div className="p-3">
                                         <h2 className="text-base font-medium text-indigo-300 mb-1">Haputale</h2>
                                         <h1 className="text-xl font-semibold mb-1">8. Ella</h1>
-                                  <p className="leading-relaxed mb-2">Ella, nestled in the picturesque hill country of
-                                      Sri Lanka, is a charming town renowned for its breathtaking landscapes and relaxed
-                                      ambiance. Surrounded by lush greenery, tea plantations, and mist-covered mountains,
-                                      Ella offers panoramic views that captivate visitors. The iconic Nine Arch Bridge and
-                                      the scenic Ella Rock are popular attractions for hikers and nature enthusiasts. The
-                                      town's tea estates provide a glimpse into Sri Lanka's rich tea culture. With its cool
-                                      climate and laid-back atmosphere, Ella has become a haven for those seeking tranquility
-                                      and natural beauty in the heart of the island.
-                                      
-                                        </p>
+                                  <p className="leading-relaxed mb-2">Ella, nestled in the picturesque hill country of Sri Lanka, is renowned for its breathtaking natural beauty and cultural attractions. One of its most iconic landmarks is the Nine Arch Bridge, a marvel of engineering and a testament to the region's colonial past. This viaduct, constructed during the British colonial era, is surrounded by lush greenery and offers stunning views of the surrounding landscape, making it a popular spot for photographers and sightseers alike.
+                                  </p>
+                                  <p className="leading-relaxed mb-2">Ella is also steeped in mythology and folklore, with several sites associated with the ancient epic Ramayana. Little Adam's Peak, named after its resemblance to the larger Adam's Peak, offers a relatively easy hike with panoramic views of the Ella Gap and surrounding mountains. Nearby, the Ravana Falls cascade gracefully down a series of rock formations, providing a refreshing retreat for visitors.
+                                  </p>
+                                  <p className="leading-relaxed mb-2">For those seeking adventure, the Diyaluma Falls, one of the tallest waterfalls in Sri Lanka, offers the opportunity for hiking, swimming, and picnicking amidst its cascading waters and lush surroundings.
+                                  </p>
                                             <div className="flex items-center flex-wrap ">
                                         {/* <Link href="/Places" className="text-indigo-300 inline-flex items-center md:mb-2 lg:mb-0"> Search details
                                             <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
@@ -337,32 +277,44 @@ function Attractions() {
 
                     <div className="container px-1 py-1 mx-auto">
                         
-                        <div className="flex">
+                        <div className=''>
+                    <div className="container px-1 py-1 mx-auto">
+                        
+                        <div className="">
                             <div className="flex p-1">
-                                <div className=" flex h-full flex-col lg:flex-row md:flex-row lg:mt-[1px] md:mt-[2px] sm:mt-[1px] border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                                    <img className="lg:h-60 md:h-48 sm:h-32 w-full object-cover object-center pr-1"
-                                        src="/arugambay.jpg" alt="Arugambay surfing" />
-                                    <div></div>
+                                <div className=" h-full flex-col lg:flex-row md:flex-row lg:mt-[1px] md:mt-[2px] sm:mt-[1px] border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                              <div className='flex'>
+                                  <img className="lg:h-60 md:h-48 sm:h-32 w-full object-cover object-center pr-1"
+                                  src="/aruga.jpg" alt="Galle Dutch Fort" />
+                              <img className="lg:h-60 md:h-48 sm:h-32 w-full object-cover object-center pr-1"
+                                  src="/aru.JPG" alt="Galle Dutch Fort" />
+                              <img className="lg:h-60 md:h-48 sm:h-32 w-full object-cover object-center pr-1"
+                                        src="/arug_ele.JPG" alt="Galle Dutch Fort" />
+                                    </div>
                                     <div className="p-3">
                                         <h2 className="text-base font-medium text-indigo-300 mb-1">Potuvil</h2>
-                                        <h1 className="text-xl font-semibold mb-1">9. Arugam Bay </h1>
-                                  <p className="leading-relaxed mb-2">Arugam Bay, located on the east coast of Sri Lanka,
-                                      is a renowned coastal destination celebrated for its stunning beaches and world-class surf conditions.
-                                      The bay attracts surf enthusiasts globally, offering a laid-back atmosphere with beachfront cafes, restaurants,
-                                      and accommodations. Beyond surfing, Arugam Bay provides opportunities for snorkeling, diving, and exploration
-                                      of nearby natural attractions like Lahugala National Park and Kumana Bird Sanctuary. The village's bohemian
-                                      charm, coupled with its natural beauty, makes Arugam Bay a unique and popular destination that combines
-                                      adventure, relaxation, and the allure of Sri Lanka's picturesque east coast.
-                                      
-                                        </p>
+                                        <h1 className="text-xl font-semibold mb-1">9. Arugambay</h1>
+                                          <p className="leading-relaxed mb-2">Arugam Bay, situated on the eastern coast of Sri Lanka, is renowned as a world-class surf destination, attracting
+                                              wave enthusiasts from around the globe. The surf season typically runs from April to October, when the area experiences consistent swells and favorable
+                                              wind conditions, making it ideal for surfing, windsurfing, and kite surfing.
+                                          </p>
+                                          <p className="leading-relaxed mb-2">Beyond its reputation as a surfer's paradise, Arugam Bay boasts a rich cultural heritage and a variety of attractions
+                                              for visitors to explore. One of its notable historical sites is the Muhudu Maha Vihara, an ancient Buddhist temple believed to date back over 2,000 years.
+                                              This sacred site holds significant religious and archaeological importance, offering insights into Sri Lanka's ancient civilization.
+                                          </p>
+                                          <p className="leading-relaxed mb-2">The coastline of Arugam Bay is dotted with pristine beaches, each with its own unique charm and character. Elephant Rock
+                                              Beach, named for its distinctive rock formation resembling an elephant, is a popular spot for sunbathing, swimming, and snorkeling. Visitors can also enjoy
+                                              beachside activities such as beach volleyball, yoga sessions, and traditional drumming performances.
+                                              In addition to its natural beauty and water sports, Arugam Bay offers a vibrant cultural scene, with lively beach bars, seafood restaurants, and local markets
+                                              lining the shore. Visitors can immerse themselves in the laid-back atmosphere of the town, sampling fresh seafood delicacies, browsing for handmade crafts, and
+                                              mingling with locals and fellow travelers.
+                                          </p>
+                                          <p className="leading-relaxed mb-2">Other attractions in Arugam Bay include wildlife safaris to nearby national parks such as Yala and Kumana, where visitors can
+                                              spot a variety of exotic wildlife, including elephants, leopards, and birds. The nearby Pottuvil Lagoon offers opportunities for birdwatching, kayaking, and
+                                              boat tours, allowing visitors to explore the region's diverse ecosystems and natural beauty.
+                                          </p>
                                             <div className="flex items-center flex-wrap ">
-                                        {/* <Link href="/Places" className="text-indigo-300 inline-flex items-center md:mb-2 lg:mb-0"> Search details
-                                            <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
-                                                fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M5 12h14"></path>
-                                                <path d="M12 5l7 7-7 7"></path>
-                                            </svg>
-                                            </Link> */}
+                                       
                                             </div>
                                     </div>
                                 </div>
@@ -370,6 +322,10 @@ function Attractions() {
 
                             
                         </div>
+                    </div>
+
+                    
+          </div>
                     </div>
           </div>
 
@@ -394,13 +350,6 @@ function Attractions() {
                                       
                                         </p>
                                             <div className="flex items-center flex-wrap ">
-                                        {/* <Link href="/Places" className="text-indigo-300 inline-flex items-center md:mb-2 lg:mb-0"> Search details
-                                            <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
-                                                fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M5 12h14"></path>
-                                                <path d="M12 5l7 7-7 7"></path>
-                                            </svg>
-                                            </Link> */}
                                             </div>
                                     </div>
                                 </div>
@@ -414,10 +363,13 @@ function Attractions() {
                         
                         <div className="flex">
                             <div className="flex p-1">
+                          
                                 <div className=" flex h-full flex-col lg:flex-row md:flex-row lg:mt-[1px] md:mt-[2px] sm:mt-[1px] border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                                    <img className="lg:h-60 md:h-48 sm:h-32 w-full object-cover object-center pr-1"
-                                        src="/mirissa.jpg" alt="Mirissa" />
-                                    <div></div>
+                                   
+                              <img className="lg:h-60 md:h-48 sm:h-32 w-full object-cover object-center pr-1"
+                                      src="/mirissa.jpg" alt="Mirissa" />
+                                   
+                
                                     <div className="p-3 ">
                                         <h2 className="text-base font-medium text-indigo-300 mb-1"> Matara</h2>
                                         <h1 className="text-xl font-semibold mb-1">11. Mirissa</h1>
@@ -430,15 +382,10 @@ function Attractions() {
                                       dolphins. The laid-back charm, stunning sunsets, and diverse activities make Mirissa a sought-after destination
                                       for travelers seeking a tranquil and scenic escape in the tropical paradise of Sri Lanka.
                                       
-                                        </p>
+                                  </p>
+                                  <p className="leading-relaxed mb-2">The beaches of Mirissa are bustling hubs of activity, with both local and foreign vendors offering an array of goods and services. From beachside cafes serving up fresh seafood dishes to souvenir shops selling handmade crafts and clothing, there's something for everyone to enjoy.
+                                  </p>
                                             <div className="flex items-center flex-wrap ">
-                                        {/* <Link href="/Places" className="text-indigo-300 inline-flex items-center md:mb-2 lg:mb-0"> Search details
-                                            <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
-                                                fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M5 12h14"></path>
-                                                <path d="M12 5l7 7-7 7"></path>
-                                            </svg>
-                                            </Link> */}
                                             </div>
                                     </div>
                                 </div>

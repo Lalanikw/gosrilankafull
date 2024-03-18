@@ -24,8 +24,8 @@ function Header() {
                          hover:text-blue-700 hover:text-2xl' ><Link href='/'>Home</Link></li>
                         <li className='text-[20px] font-semibold text-black-100 cursor-pointer hover:text-blue-700 hover:text-2xl'
                                   ><Link href='/Places'>Places</Link></li>
-                                  <li className='text-[20px] font-semibold text-black-100 cursor-pointer hover:text-blue-700 hover:text-2xl'
-                        ><Link href='/events'> Events</Link> </li>
+                                  {/* <li className='text-[20px] font-semibold text-black-100 cursor-pointer hover:text-blue-700 hover:text-2xl'
+                        ><Link href='/events'> Events</Link> </li> */}
                         {/* <li className='text-[20px] font-semibold text-black-100 cursor-pointer hover:text-blue-700 hover:text-2xl'
                         ><Link href='/Information'> Information</Link> </li> */}
                         <li className='text-[20px] font-semibold text-black-100 cursor-pointer hover:text-blue-700 hover:text-2xl'
