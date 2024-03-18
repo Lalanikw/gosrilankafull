@@ -14,7 +14,7 @@ function Header() {
                           </Link>
                           <div className='p-3'>
                                   <Link href='/' passHref><h1 className='text-3xl lg:text-7xl md:text-5xl sm:text-4xl text-black font-semibold hover:text-blue-900'>Sri Lanka </h1></Link>
-                                  <h2 className='text-2xl md:text-lg  text-blue-900'>The Perl of the Indian Ocean</h2>
+                                  <h2 className='text-2xl md:text-lg  text-blue-900'>The Pearl of the Indian Ocean</h2>
                            </div>
 
             </div>
@@ -23,7 +23,9 @@ function Header() {
                         <li className='text-[20px] font-semibold text-black-100 transition-all ease-in-out cursor-pointer
                          hover:text-blue-700 hover:text-2xl' ><Link href='/'>Home</Link></li>
                         <li className='text-[20px] font-semibold text-black-100 cursor-pointer hover:text-blue-700 hover:text-2xl'
-                            ><Link href='/Places'>Places</Link></li>
+                                  ><Link href='/Places'>Places</Link></li>
+                                  <li className='text-[20px] font-semibold text-black-100 cursor-pointer hover:text-blue-700 hover:text-2xl'
+                        ><Link href='/events'> Events</Link> </li>
                         {/* <li className='text-[20px] font-semibold text-black-100 cursor-pointer hover:text-blue-700 hover:text-2xl'
                         ><Link href='/Information'> Information</Link> </li> */}
                         <li className='text-[20px] font-semibold text-black-100 cursor-pointer hover:text-blue-700 hover:text-2xl'

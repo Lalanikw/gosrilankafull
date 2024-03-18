@@ -5,23 +5,36 @@ import {NextResponse} from "next/server";
 import mongoose from "mongoose";
 
 export async function POST(req) {
-
-  const { fullname, email, message } = await req.json();
-
   try {
-    await connectDB();
-    await Contact.create({ fullname, email, message })
-    
-    return NextResponse.json({
-      msg: ["Message sent successfully"], success: true
-    })
+    const { fullname, email, message } = await req.json();
 
-  } catch (error) {
-    if (error instanceof mongoose.Error.ValidationError) {
-      let errorList = [];
-      for (let e in error.errors) {
-        errorList.push(e.message);
-      }
+    // Log a message when the JSON is successfully parsed
+    console.log('JSON parsed successfully:', { fullname, email, message });
+
+    try {
+      await connectDB();
+      console.log('MongoDB connected successfully');
+
+      // Create a new contact document in MongoDB
+      await Contact.create({ fullname, email, message });
+
+      // Return a success response
+      return NextResponse.json({
+        msg: ['Message sent successfully'],
+        success: true,
+      });
+    } catch (connectError) {
+      console.error('Error connecting to MongoDB:', connectError);
+      return NextResponse.json({
+        errors: ['Error connecting to MongoDB'],
+        success: false,
+      });
     }
-    }
+  } catch (jsonError) {
+    console.error('Error parsing JSON:', jsonError);
+    return NextResponse.json({
+      errors: ['Error parsing JSON'],
+      success: false,
+    });
+  }
 }
