@@ -171,7 +171,7 @@ function Attractions() {
                                   <img className="lg:h-72 md:h-60 sm:h-48 w-full object-cover object-center pr-1"
                                   src="/ad_bridge.jpg" alt="Adam's Bridge Mannar" />
                               <img className="lg:h-72 md:h-60 sm:h-48 w-full object-cover object-center pr-1"
-                                  src="/fle.jpg" alt="Mannar Baobab tree" />
+                                  src="/boab_tree.jpg" alt="Mannar Baobab tree" />
                              
                                     </div>
                                     <div className="p-3">
