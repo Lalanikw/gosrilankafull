@@ -10,7 +10,7 @@ function Header() {
         <nav className='flex justify-between p-5 px-3 '>
             <div className='flex gap-3'>
                           <Link href='/' passHref>
-                                   <div className='-mb-4 p-1'><Image src='/board.jpg' alt='logo' width={75} height={50} /></div>
+                                   <div className='-mb-4 p-1'><Image src='/logo.jpg' alt='logo' width={75} height={50} /></div>
                           </Link>
                           <div className='p-3'>
                                   <Link href='/' passHref><h1 className='text-3xl lg:text-7xl md:text-5xl sm:text-4xl text-black font-semibold hover:text-blue-900'>Sri Lanka </h1></Link>
