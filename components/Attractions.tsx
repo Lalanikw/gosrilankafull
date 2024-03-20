@@ -285,11 +285,11 @@ function Attractions() {
                                 <div className=" h-full flex-col lg:flex-row md:flex-row lg:mt-[1px] md:mt-[2px] sm:mt-[1px] border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                               <div className='flex'>
                                   <img className="lg:h-60 md:h-48 sm:h-32 w-full object-cover object-center pr-1"
-                                  src="/aruga.jpg" alt="Galle Dutch Fort" />
+                                  src="/aruga.jpg" alt="Arugambay food" />
                               <img className="lg:h-60 md:h-48 sm:h-32 w-full object-cover object-center pr-1"
-                                  src="/aru.JPG" alt="Galle Dutch Fort" />
+                                  src="/aru.JPG" alt="Arugambay beach" />
                               <img className="lg:h-60 md:h-48 sm:h-32 w-full object-cover object-center pr-1"
-                                        src="/arug_ele.JPG" alt="Galle Dutch Fort" />
+                                        src="/arug_ele.JPG" alt="Elephant" />
                                     </div>
                                     <div className="p-3">
                                         <h2 className="text-base font-medium text-indigo-300 mb-1">Potuvil</h2>

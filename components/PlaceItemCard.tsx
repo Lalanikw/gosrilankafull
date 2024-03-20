@@ -9,7 +9,7 @@ function PlaceItemCard({ place }:any) {
     <div className='flex w-full z-10 border-[1px] rounder-x1 shadow-md p-2'>
       {place && place.photos && place.photos.length > 0 && (
         <Image src={BASE_URL_PHOTO+"&photo_reference="+place?.photos[0]?.photo_reference+"&key="+process.env.NEXT_PUBLIC_GOOGLE_PLACE_KEY}
-          // alt="placeholder" width={200} height={80}
+          alt="placeholder" width={200} height={80}
           className="w-auto h-[100px] object- rounded-t-xl" />
       )}
       <div className='p-1'>

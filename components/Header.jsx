@@ -24,23 +24,20 @@ function Header() {
                          hover:text-blue-700 hover:text-2xl' ><Link href='/'>Home</Link></li>
                         <li className='text-[20px] font-semibold text-black-100 cursor-pointer hover:text-blue-700 hover:text-2xl'
                                   ><Link href='/Places'>Places</Link></li>
-                                  {/* <li className='text-[20px] font-semibold text-black-100 cursor-pointer hover:text-blue-700 hover:text-2xl'
-                        ><Link href='/events'> Events</Link> </li> */}
-                        {/* <li className='text-[20px] font-semibold text-black-100 cursor-pointer hover:text-blue-700 hover:text-2xl'
-                        ><Link href='/Information'> Information</Link> </li> */}
+                                  
                         <li className='text-[20px] font-semibold text-black-100 cursor-pointer hover:text-blue-700 hover:text-2xl'
                         ><Link href='/ContactUs'> Contact Us</Link> </li>
                 </ul>
                   </div>
                   <div className='md:hidden lg:hidden relative'>
                           {!toggle ? <svg xmlns="http://www.w3.org/2000/svg" fill="none"
-                                  onClick={() => setToggle(true)} viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                  onClick={() => setToggle(true)} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor"
                                   className="w-8 h-8 cursor-pointer text-blue-800 float-right">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                           </svg> : <svg xmlns="http://www.w3.org/2000/svg" fill="none"
-                                          onClick={() => setToggle(false)} viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                          onClick={() => setToggle(false)} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor"
                                           className="w-8 h-8 cursor-pointer text-blue-800 float-right">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
                           </svg>}
                           {toggle ?
                         <ul className='gap-8 items-center mt-8 bg-gray-300 p-1 z-50 fixed top-5 right-0 w-50%' style={{zIndex: 1000}}>

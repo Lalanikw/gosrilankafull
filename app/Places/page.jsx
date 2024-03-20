@@ -36,7 +36,8 @@ function page() {
                             <div className='mt-1 pt-1' >
               <Hero onSearch={handleSearch} />
               {placeList && placeList.length > 0 && (
-                <PlaceList places={placeList.slice(0, 4)} />
+                <PlaceList places={placeList.slice(0, 4)}
+                   />
               )}
                             </div>
                     </div>
