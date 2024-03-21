@@ -1,6 +1,6 @@
 import { PlaceListContext } from "@/context/PlaceListContext";
 import { MarkerF } from "@react-google-maps/api";
-import React, { useContext } from 'react'
+import React, { useContext } from 'react';
 
 function Marker() {
     const {placeList,setPlaceList}=useContext(PlaceListContext)
@@ -12,7 +12,7 @@ function Marker() {
                 <MarkerF
                     position={place.geometry.location}
                     icon={{
-                        url: '/surfer.jpg',
+                        url: '/map-icon.png',
                         scaledSize: {
                             width: 50,
                             height:50
@@ -24,3 +24,4 @@ function Marker() {
         </div>
     )
 }
+export default Marker
