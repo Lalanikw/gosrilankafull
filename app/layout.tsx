@@ -27,7 +27,10 @@ export default function RootLayout({
           <title>{metadata.title}</title>
           <meta name="description" content={metadata.description} />
           
-          <link rel="icon" href='/logo.jpg'/>
+          <link rel="icon" href='/logo.jpg' />
+          <link rel="preload" href="https://www.gotravelsrilanka.com/_next/static/css/40292f52c9994538.css" as="style"/>
+
+          
           <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
           <style>
             {`

@@ -113,8 +113,8 @@ function LandingBottom() {
                 
                               <div className="flex items-center flex-wrap ">
                                     <Link href="/ContactUs" className="text-indigo-300 inline-flex items-center mt-5 md:mb-2 lg:mb-0"> Rent a Car
-                                        <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
-                                          fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"
+                                          fill="none" strokeLinecap="round" strokeLinejoin="round">
                                           <path d="M5 12h14"></path>
                                           <path d="M12 5l7 7-7 7"></path>
                                         </svg>
@@ -139,8 +139,9 @@ function LandingBottom() {
                             
                 
                               <div className="flex items-center flex-wrap ">
-                                    <Link href="/ContactUs" className="text-indigo-300 inline-flex items-center mt-5 md:mb-2 lg:mb-0"> Rent a TukTuk                        <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
-                                          fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <Link href="/ContactUs" className="text-indigo-300 inline-flex items-center mt-5 md:mb-2 lg:mb-0"> Rent a TukTuk
+                    <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                          fill="none" strokeLinecap="round" strokeLinejoin="round">
                                           <path d="M5 12h14"></path>
                                           <path d="M12 5l7 7-7 7"></path>
                                         </svg>
@@ -164,8 +165,8 @@ function LandingBottom() {
                 <p><strong className='text-blue-900 text-1xl'>2.</strong> SL Ride Rentals</p>
                               <div className="flex items-center flex-wrap ">
                                     <Link href="/ContactUs" className="text-indigo-300 inline-flex items-center mt-5 md:mb-2 lg:mb-0"> Contact Us
-                                        <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
-                                          fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"
+                                          fill="none" strokeLinecap="round" strokeLinejoin="round">
                                           <path d="M5 12h14"></path>
                                           <path d="M12 5l7 7-7 7"></path>
                                         </svg>
@@ -204,8 +205,8 @@ function LandingBottom() {
                   </p>
                         <div className="items-center flex-wrap ">
                               <Link href="https://seatreservation.railway.gov.lk/mtktwebslr" target='_black' className="text-indigo-300 inline-flex items-center mt-5 md:mb-2 lg:mb-0"> Buy Train tickets online
-                                  <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
-                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                  <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"
+                                    fill="none" strokeLinecap="round" strokeLinejoin="round">
                                     <path d="M5 12h14"></path>
                                     <path d="M12 5l7 7-7 7"></path>
                                   </svg>
@@ -233,8 +234,8 @@ function LandingBottom() {
                   </p>
                         <div className="items-center flex-wrap ">
                               <Link href="https://busseat.lk/" target='_blanck' className="text-indigo-300 inline-flex items-center mt-5 md:mb-2 lg:mb-0"> Buy bus tickets online
-                                  <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
-                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                  <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"
+                                    fill="none" strokeLinecap="round" strokeLinejoin="round">
                                     <path d="M5 12h14"></path>
                                     <path d="M12 5l7 7-7 7"></path>
                                   </svg>
@@ -271,8 +272,8 @@ function LandingBottom() {
                 <div className="items-center flex-wrap mb-5 ">
                   <Link href="https://srilanka.visaonlinegov.org/apply-visa" target='_black' className="text-indigo-300 inline-flex items-center mt-5 md:mb-2 lg:mb-0">
                     Apply online
-                                  <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
-                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                  <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"
+                                    fill="none" strokeLinecap="round" strokeLinejoin="round">
                                     <path d="M5 12h14"></path>
                                     <path d="M12 5l7 7-7 7"></path>
                                   </svg>
@@ -325,8 +326,8 @@ function LandingBottom() {
                 <div className="flex items-center flex-wrap mb-5 ">
                   <Link href="https://dmt.gov.lk/index.php?lang=en" target='_black' className="text-indigo-300 inline-flex items-center mt-5 md:mb-2 lg:mb-0">
                     DMV Sri Lanka
-                                  <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
-                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                  <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"
+                                    fill="none" strokeLinecap="round" strokeLinejoin="round">
                                     <path d="M5 12h14"></path>
                                     <path d="M12 5l7 7-7 7"></path>
                                   </svg>

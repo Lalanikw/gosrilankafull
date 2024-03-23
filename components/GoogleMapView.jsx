@@ -19,7 +19,7 @@ function GoogleMapView({ places }) {
       <LoadScript googleMapsApiKey={process.env.NEXT_PUBLIC_GOOGLE_API_KEY}>
         <GoogleMap mapContainerStyle={containerStyle} center={coordinate} zoom={7.45}>
           {places && places.map((place, index) => (
- <Marker/>
+            <Marker key={index} place={place} />
           ))}
          
         </GoogleMap>

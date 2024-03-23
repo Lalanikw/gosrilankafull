@@ -3,7 +3,7 @@ import { MarkerF } from "@react-google-maps/api";
 import React, { useContext } from 'react';
 
 function Marker() {
-    const {placeList,setPlaceList}=useContext(PlaceListContext)
+    const {placeList}=useContext(PlaceListContext)
 
     return (
         <div>
