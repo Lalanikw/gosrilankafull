@@ -40,7 +40,7 @@ function Attractions() {
                         <div className="flex">
                             <div className="flex p-1">
                                 <div className=" flex h-full flex-col lg:flex-row md:flex-row lg:mt-[1px] md:mt-[2px] sm:mt-[1px] border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                                    <img className="lg:h-60 md:h-48 w-full object-cover object-center pr-1"
+                                    <img className="lg:h-72 md:h-60 w-full object-cover object-center pr-1"
                                         src="/kones.jpg" alt="Koneswaram Kovil" width={100} height={100} />
                                     <div></div>
                                     <div className="p-3">

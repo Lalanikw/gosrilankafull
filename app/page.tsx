@@ -22,7 +22,7 @@ export default function Home() {
                       <div className='information p-5 lg:w-1/3'>
                           <p className='pb-5'  >
                       <strong className='text-blue-900 text-2xl'>T</strong>raveling to Sri Lanka is an exciting adventure. The country welcomes visitors
-                      with lush landscapes, a rich history, and vibrant culture. 
+                      with lush landscapes, a rich history, and vibrant culture.
                       <br></br> <br></br>From the historic city of Colombo
                       to cultural treasures like Sigiriya and Kandy, and the scenic beauty of Ella and Nuwara Eliya,
                       each destination offers a unique experience. Coastal gems like Mirissa and Trincomalee provide
@@ -30,8 +30,7 @@ export default function Home() {
                       <br></br><br></br>Exploring local cuisine,
                       engaging with communities, and participating in cultural festivals make the journey an immersive and
                       enriching experience in Sri Lanka. <br /><br></br>
-
-                      For more information, please contact us.  
+                      For more information, please contact us.
                           </p>
                           <Link href="/ContactUs"><button className='p-2 bg-blue-900 rounded-full text-white'>Contact Us &#x27A4;</button></Link>
                       </div>

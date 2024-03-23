@@ -1,4 +1,4 @@
-import { PlaceListContext } from "@/context/PlaceListContext";
+import { PlaceListContext } from "../context/PlaceListContext";
 import { MarkerF } from "@react-google-maps/api";
 import React, { useContext } from 'react';
 
