@@ -1,9 +1,6 @@
-
-import { UserLocationContext } from '../context/UserLocationContext';
 import { LoadScript, GoogleMap} from '@react-google-maps/api';
 import React, { useEffect } from 'react';
 import { useContext } from 'react';
-import { useState } from 'react';
 import Marker from './Marker';
 
 function GoogleMapView({ places }) {
@@ -18,10 +15,9 @@ function GoogleMapView({ places }) {
     <div>
       <LoadScript googleMapsApiKey={process.env.NEXT_PUBLIC_GOOGLE_API_KEY}>
         <GoogleMap mapContainerStyle={containerStyle} center={coordinate} zoom={7.45}>
-          {places && places.map((place, index) => (
+          {Array.isArray(places) && places.map((place, index) => (
             <Marker key={index} place={place} />
           ))}
-         
         </GoogleMap>
       </LoadScript>
     </div>

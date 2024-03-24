@@ -4,15 +4,25 @@ import { useState } from 'react';
 
 function PlaceList({ places }) {
   
-  const [filteredPlaces, setFilteredPlaces] = useState(places);
+  const [filteredPlaces, setFilteredPlaces] = useState([]);
+
+  //update filteredPlaces when prop changes
+  React.useEffect(() => {
+    if (places) {
+      setFilteredPlaces(places);
+    } 
+  }, [places]);
   
+  // Handle search
   const handleSearch = (searchInput) => {
     // Implement your search logic here, e.g., filter places based on the search input
-    const filtered = places.filter((place) =>
-      place.name.toLowerCase().includes(searchInput.toLowerCase())
-    );
-    console.log(filtered);
-    setFilteredPlaces(filtered);
+    if (places) {
+      const filtered = places.filter((place) =>
+        place.name.toLowerCase().includes(searchInput.toLowerCase())
+      );
+      console.log(filtered);
+      setFilteredPlaces(filtered);
+    }
   };
 
   return (
