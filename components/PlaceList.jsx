@@ -4,14 +4,8 @@ import { useState } from 'react';
 
 function PlaceList({ places }) {
   
-  const [filteredPlaces, setFilteredPlaces] = useState([]);
+ const [filteredPlaces, setFilteredPlaces] = useState([]);
 
-  //update filteredPlaces when prop changes
-  React.useEffect(() => {
-    if (places) {
-      setFilteredPlaces(places);
-    } 
-  }, [places]);
   
   // Handle search
   const handleSearch = (searchInput) => {
@@ -29,7 +23,7 @@ function PlaceList({ places }) {
       <div className='px-[10px] md:px-[120px] mt-5 z-10'>
           <h2 className='text-[20px] font-bold'> </h2>
           <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-3'>
-              {filteredPlaces.map((place, index) => (
+              {places && places.map((place, index) => (
                   <div className='z-10'key={index}>
                       <PlaceItemCard place={place} />
                 </div>
