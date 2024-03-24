@@ -22,6 +22,28 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/api/google-nearby-place", "app/api/contact/route.js", "app/lib/mongodb.jsx", "app/Places/page.jsx", "components/InformationCard.jsx", "components/Chatbot.jsx", "components/ContactForm.jsx", "components/GoogleMapView.jsx", "components/Header.jsx", "components/Hero.jsx", "components/Marker.jsx", "components/LandingBottom.jsx", "context/UserLocationContext.jsx", "context/PlaceListContext.jsx", "app/api/google-place-api/route.js", "components/PlaceList.jsx", "app/models/contact.js]"],
-  "exclude": ["node_modules"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "app/api/google-nearby-place",
+    "app/api/contact/route.js",
+    "app/lib/mongodb.jsx",
+    "app/Places/page.jsx",
+    "components/InformationCard.jsx",
+    "components/Chatbot.jsx",
+    "components/ContactForm.jsx",
+    "components/GoogleMapView.jsx",
+    "components/Header.jsx",
+    "components/Hero.jsx",
+    "components/Marker.jsx",
+    "components/LandingBottom.jsx",
+    "context/UserLocationContext.jsx",
+    "context/PlaceListContext.jsx",
+    "app/api/google-place-api/route.js",
+    "components/PlaceList.jsx",
+    "app/models/contact.js]"
+  ],
+  "exclude": ["node_modules"]
 }
