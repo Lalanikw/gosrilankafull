@@ -1,8 +1,8 @@
 import { PlaceListContext } from "../context/PlaceListContext";
-import { MarkerF } from "@react-google-maps/api";
+import { Marker as MarkerF } from "@react-google-maps/api";
 import React, { useContext } from 'react';
 
-function Marker() {
+function CustomMarker() {
     const {placeList}=useContext(PlaceListContext)
 
     return (
@@ -24,4 +24,4 @@ function Marker() {
         </div>
     )
 }
-export default Marker
+export default CustomMarker

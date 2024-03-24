@@ -15,8 +15,6 @@ export async function GET(request: any) {
             },
         }
     )
-
     const resp=await res.json();
-
     return NextResponse.json({resp})
 }

@@ -140,7 +140,7 @@ function LandingBottom() {
                 
                               <div className="flex items-center flex-wrap ">
                   <Link href="/ContactUs" className="text-indigo-300 inline-flex items-center mt-5 md:mb-2 lg:mb-0"> Rent a TukTuk
-                    <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                    <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"
                                           fill="none" strokeLinecap="round" strokeLinejoin="round">
                                           <path d="M5 12h14"></path>
                                           <path d="M12 5l7 7-7 7"></path>
