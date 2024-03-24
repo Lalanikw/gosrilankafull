@@ -42,7 +42,7 @@
     "context/UserLocationContext.jsx",
     "context/PlaceListContext.jsx",
     "app/api/google-place-api/route.js",
-    "components/PlaceList.jsx",
+    "components/PlaceList.tsx",
     "app/models/contact.js]"
   ],
   "exclude": ["node_modules"]
