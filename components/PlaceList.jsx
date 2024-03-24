@@ -4,20 +4,20 @@ import { useState } from 'react';
 
 function PlaceList({ places }) {
   
- const [filteredPlaces, setFilteredPlaces] = useState([]);
+//  const [filteredPlaces, setFilteredPlaces] = useState([]);
 
   
-  // Handle search
-  const handleSearch = (searchInput) => {
-    // Implement your search logic here, e.g., filter places based on the search input
-    if (places) {
-      const filtered = places.filter((place) =>
-        place.name.toLowerCase().includes(searchInput.toLowerCase())
-      );
-      console.log(filtered);
-      setFilteredPlaces(filtered);
-    }
-  };
+//   // Handle search
+//   const handleSearch = (searchInput) => {
+//     // Implement your search logic here, e.g., filter places based on the search input
+//     if (places) {
+//       const filtered = places.filter((place) =>
+//         place.name.toLowerCase().includes(searchInput.toLowerCase())
+//       );
+//       console.log(filtered);
+//       setFilteredPlaces(filtered);
+//     }
+//   };
 
   return (
       <div className='px-[10px] md:px-[120px] mt-5 z-10'>
