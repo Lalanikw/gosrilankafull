@@ -48,7 +48,8 @@ export default function RootLayout({
                     <Header />
                     {children}
                   <Footer />
-                  <ChatBot />
+          <ChatBot />
+          
              
             </body>
       </html>
