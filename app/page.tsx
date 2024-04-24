@@ -21,15 +21,12 @@ export default function Home() {
                               className='information-image w-2/3 h-2/3 pt-10 p-3' />
                       <div className='information p-5 lg:w-1/3'>
                           <p className='pb-5'  >
-                      <strong className='text-blue-900 text-2xl'>T</strong>raveling to Sri Lanka is an exciting adventure. The country welcomes visitors
-                      with lush landscapes, a rich history, and vibrant culture.
-                      <br></br> <br></br>From the historic city of Colombo
-                      to cultural treasures like Sigiriya and Kandy, and the scenic beauty of Ella and Nuwara Eliya,
-                      each destination offers a unique experience. Coastal gems like Mirissa and Trincomalee provide
-                      sun and sand, while Yala National Park and Horton Plains beckon nature enthusiasts.
-                      <br></br><br></br>Exploring local cuisine,
-                      engaging with communities, and participating in cultural festivals make the journey an immersive and
-                      enriching experience in Sri Lanka. <br /><br></br>
+                              <strong className='text-blue-900 text-2xl'>T</strong>raveling to Sri Lanka is a thrilling trip.
+                              The country invites travelers with its gorgeous scenery, rich history, and vibrant culture.
+                              <br></br> <br></br>Each site, from the historic capital of Colombo to cultural treasures such as Sigiriya and Kandy,
+                              as well as the scenic splendor of Ella and Nuwara Eliya, provides a distinct experience. Coastal jewels such as Mirissa and Trincomalee offer sun and beach, while Yala National Park and Horton Plains entice nature lovers.
+                              <br></br><br></br>Exploring local cuisine, interacting with locals, and attending cultural festivals make for an immersive and enjoyable journey in Sri Lanka.
+                              <br /><br></br>
                       For more information, please contact us.
                           </p>
                           <Link href="/ContactUs"><button className='p-2 bg-blue-900 rounded-full text-white'>Contact Us &#x27A4;</button></Link>
