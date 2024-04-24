@@ -16,7 +16,7 @@ function Footer() {
               <SocialIcon target="_blank" url="https://www.facebook.com/profile.php?id=61556607658302" />
             </li>
             <li>
-              <SocialIcon target="_blank" url="https://instagram.com" />
+              <SocialIcon target="_blank" url="https://www.instagram.com/far_awesome_world/" />
             </li>
             <li>
               <SocialIcon target="_blank" url="https://www.youtube.com/@farawesomeworld" />
