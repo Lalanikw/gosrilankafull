@@ -19,7 +19,7 @@ function Footer() {
               <SocialIcon target="_blank" url="https://instagram.com" />
             </li>
             <li>
-              <SocialIcon target="_blank" url="https://youtube.com" />
+              <SocialIcon target="_blank" url="https://www.youtube.com/@farawesomeworld" />
             </li>
           </ul>
         </div>
