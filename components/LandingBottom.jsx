@@ -50,16 +50,13 @@ function LandingBottom() {
                   <div className='text-justify'>
                 <div className=' flex flex-col lg:flex-row md:flex-row lg:mt-[1px] md:mt-[2px] sm:mt-[1px] text-justify'>
                         <div>
-                          <p className='p-5'><strong className='text-blue-900 text-2xl'>S</strong>ri Lanka observes a variety of holidays and events,
-                            reflecting
-                            its multicultural and multi-religious population.</p>
-                          <p>The range of holidays include religious festivals such as Vesak, celebrating Buddha's birth, enlightenment, and death,
-                            and Deepavali, the Hindu festival of lights. National holidays like Independence Day and National
-                            Day commemorate significant historical events.
+                          <p className='p-5'><strong className='text-blue-900 text-2xl'>S</strong>ri Lanka celebrates a wide range of holidays and events, reflecting its multicultural and multi-religious citizens.</p>
+                          
+                <p>Spiritual celebrations include Vesak, which commemorates Buddha's birth, enlightenment, and death, as well as Deepavali, the Hindu festival of lights. National holidays such as Independence Day
+                  and National Day honor key historical events.
                           </p> <br></br>
-                          <p>The Sinhala and Tamil New Year stands out as a major cultural celebration, marking the end of the
-                            harvest season with traditional customs and festivities. Poya Days, occurring monthly on full moon days,
-                            are dedicated to Buddhist observances.
+                <p>The Sinhala and Tamil New Year serves as a major cultural occasion that marks the conclusion of the harvest season through traditional customs and celebrations. Poya Days, which take place every month
+                  on full moon days, are dedicated to Buddhist observances.
                         </p>
                         </div>
                         <div className='p-3 item-center'>
@@ -90,11 +87,8 @@ function LandingBottom() {
                           <div >
                             <Image src='/foot1.jpg' alt='foot and flower' className='rounded-full' width={200} height={100} />
                           </div>
-                          <p className='p-4'><strong className='text-blue-900 text-2xl'>R</strong> enting a vehicle in Sri Lanka provides diverse options, each offering a unique travel experience.
-                            When renting any type of vehicle, it's essential to ensure proper documentation, adhere to local traffic regulations,
-                            and consider the type of terrain you'll encounter. Additionally, choosing a reliable rental provider and understanding
-                            the terms and conditions of the rental agreement is crucial for a smooth and enjoyable travel experience in Sri Lanka.
-                        </p>
+                          <p className='p-4'><strong className='text-blue-900 text-2xl'>R</strong> enting a vehicle in Sri Lanka provides a variety of possibilities, each offering a unique travel experience. When renting a vehicle, it is essential to have valid documents, follow local traffic laws, and consider the type of terrain you will face. In addition, selecting a reputable rental service and comprehending the terms and conditions of the rental agreement is critical for a seamless and happy travel experience in Sri Lanka.
+</p>
           </div>
 
                 <div className="flex flex-col lg:flex-row md:flex-row lg:mt-[1px] md:mt-[2px] sm:mt-[1px] text-justify">
@@ -104,10 +98,8 @@ function LandingBottom() {
                         <div className="p-2 hover:bg-blue-950 hover:text-white transition duration-300 ease-in">
                             <h2 className="text-base font-medium text-indigo-300 mb-1 text-center"> 4-Wheel</h2>
                             <h1 className="text-2xl font-semibold mb-3 text-center">Car | SUV | Van</h1>
-                            <p className="leading-relaxed mb-3">Renting a car is a popular choice for comfort and convenience.
-                              International and local car rental companies provide a range of vehicles, from compact cars to SUVs.
-                              This option allows for flexibility in exploring Sri Lanka's diverse landscapes, historical sites, and
-                  cities at one's own pace.</p>
+                <p className="leading-relaxed mb-3">Rental cars are a popular alternative for comfort and convenience. International and local automobile rental firms provide a wide selection of vehicles, from modest cars to SUVs. This choice lets you to explore Sri Lanka's
+                  different landscapes, historical sites, and cities at your own leisure.</p>
                             <p><strong className='text-blue-900 text-1xl'>1.</strong> International Car Rental: Hertz, Avis, and Europcar.</p>
                             <p><strong className='text-blue-900 text-1xl'>2.</strong> Local Rental: Casons Rent a Car, Malkey Rent a Car, and SR Rent a Car</p>
                 
