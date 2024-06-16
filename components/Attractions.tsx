@@ -13,16 +13,28 @@ function Attractions() {
                             <div className="flex  p-1">
                                 <div className=" flex h-full flex-col lg:flex-row md:flex-row lg:mt-[1px] md:mt-[2px] sm:mt-[1px] border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                                     <img className="lg:h-60 md:h-48 w-full object-cover object-center pr-1"
-                                        src="/nagadeepa.jpg" alt="Nagadeepa temple"  width={100} height={100} />
+                                  src="/naga.jpg" alt="Nagadeepa temple" width={100} height={100} />
+                              <img className="lg:h-60 md:h-48 w-full object-cover object-center pr-1"
+                                        src="/naga_bo.jpg" alt="Nagadeepa temple"  width={100} height={100} />
                                     
                                     <div className="p-3 text-justify">
                                         <h2 className="text-base font-medium text-indigo-300 mb-1">Jaffna</h2>
                                         <h1 className="text-xl font-semibold mb-1">1. Nagadeepa</h1>
-                                  <p className="leading-relaxed mb-2">Nagadeepa, located in Jaffna, Sri Lanka, holds immense historical and religious significance. It is a sacred site that houses a Buddhist temple, which is believed to have been visited by the Buddha himself during his second visit to Sri Lanka. Legend has it that the Buddha resolved a dispute between two kings. The Buddha's intervention led to the restoration of harmony and peace.
-
+                                  <p className="leading-relaxed mb-2">Nagadeepa is one of the islands off the Jaffna Peninsula in Sri Lanka. It is a sacred site that
+houses a Buddhist temple, Nagadeepa Rajamaha Vihara, which holds immense historical and
+religious significance. The place is believed to have been visited by the Buddha himself during
+his second visit to Sri Lanka. Legend has it that the Buddha resolved a dispute between two
+kings of the Naga tribe: Chulodhara and Mahodhara. It is said that Buddha's intervention led to
+the restoration of harmony and peace.
+To reach Nagadeepa, visitors need to embark on a boat journey, that offers glimpses of serene
+surrounding. As visitors approach the temple, they are greeted by a peaceful atmosphere and the
+rich scent of incense. Devotees and pilgrims from all walks of life visit the temple to pay their
+respects and seek blessings and guidance. Adjacent to the Buddhist temple, there is a significant
+Hindu Kovil that is dedicated to Skanda, Lord Shiva's son. The coexistence of Buddhist and
+Hindu places of worship is a testament to the cultural diversity and religious harmony found in
+Sri Lanka.
                                   </p>
-                                  <p className="leading-relaxed mb-2">To reach Nagadeepa, visitors need to embark on a boat journey, which adds to its mystical allure and spiritual journey. As visitors approach the temple, they are greeted by a serene atmosphere and the rich scent of incense. Devotees and pilgrims from all walks of life visit the temple to pay their respects and seek blessings and guidance. Adjacent to the Buddhist temple, there is a significant Hindu Kovil that is dedicated to Skanda, Lord Shiva's son. The coexistence of Buddhist and Hindu places
-                                      of worship is a testament to the cultural diversity and religious harmony found in Sri Lanka.</p>
+                                  
                                             <div className="flex items-center flex-wrap ">
                                             </div>
                                     </div>
@@ -44,9 +56,9 @@ function Attractions() {
                                     <div className="p-3 text-justify">
                                         <h2 className="text-base font-medium text-indigo-300 mb-1">Trincomalee</h2>
                                         <h1 className="text-xl font-semibold mb-1">2. Koneswaram Kovil</h1>
-                                  <p className="leading-relaxed mb-2 text-justify">Koneshwaram Kovil, nestled in Trincomalee, the northeast part of Sri Lanka, is a Hindu temple dedicated to Lord Shiva, known here as Konesar. This ancient temple holds deep spiritual significance for devotees seeking blessings and solace. Perched atop Swami Rock overlooking the Indian Ocean, Koneshwaram Kovil offers breathtaking panoramic views, adding to its allure as a sacred sanctuary.
+                                  <p className="leading-relaxed mb-2 text-justify">Koneshwaram Kovil, nestled in Trincomalee along eastern coast of Sri Lanka, is a Hindu temple dedicated to Lord Shiva, known here as Konesar. This ancient temple holds deep spiritual significance for devotees seeking blessings and solace. It is rightly located on the summit of   Swami Rock overlooking the Indian Ocean.  The Kovil offers breathtaking panoramic views, adding to its allure as a sacred sanctuary.
                                   </p>
-                                  <p className="leading-relaxed mb-2">Trincomalee, renowned for its pristine beaches, boasts some of the most stunning coastal stretches in Sri Lanka. Nilaveli Beach beckons visitors with its miles of soft golden sands and crystal-clear turquoise waters, perfect for sunbathing, swimming, and water sports. Nearby, Pigeon Island National Park presents a haven for snorkelers and divers, showcasing vibrant coral reefs teeming with marine life.
+                                  <p className="leading-relaxed mb-2">Trincomalee is  renowned for its pristine beaches and stunning coastal stretches in Sri Lanka. Nilaveli Beach with its miles of soft golden sands and crystal-clear turquoise waters, offers a perfect place for sunbathing, swimming, and water sports. Pigeon Island National Park located nearby, presents a haven for snorkelers and divers. It showcases vibrant coral reefs teeming with marine life.
                                   </p>
                                   
                                             <div className="flex items-center flex-wrap ">
@@ -78,15 +90,8 @@ function Attractions() {
                                     <div className="p-3 text-justify">
                                         <h2 className="text-base font-medium text-indigo-300 mb-1">Kalpitiya</h2>
                                         <h1 className="text-xl font-semibold mb-1">3. Kite Surfing</h1>
-                                  <p className="leading-relaxed mb-2">Kite surfing on the west coast of Sri Lanka is a thrilling
-                                      and popular water sport, drawing enthusiasts to its pristine beaches and ideal wind conditions.
-                                      The coastal areas, such as Kalpitiya, are renowned for their consistent and strong winds, creating
-                                      an excellent environment for kite surfers of all skill levels. With its shallow lagoons and expansive
-                                      sandy shores, the west coast provides an ideal setting for both beginners and experienced kite surfers.
-                                      The region has established itself as a hub for kite surfing schools and resorts, offering not only
-                                      fantastic conditions for the sport but also a laid-back atmosphere and stunning coastal scenery, making
-                                      it a sought-after destination for those seeking adventure on the water.
-                                      
+                                  <p className="leading-relaxed mb-2">Kitesurfing is a thrilling and exciting water sport drawing enthusiasts to a paradise with pristine beaches and ideal wind conditions. Kalapitiya, in the North West coast on the peninsula of Puttalam, is ladened with pristine flat lagoons and consistent seasonal wind and  creates a haven for kite surfing and many other water sports. With its shallow lagoons and expansive sandy shores, the west coast provides an ideal setting for both beginners and experienced kite surfers.
+                                                                            
                                         </p>
                                             <div className="flex items-center flex-wrap ">
                                             </div>
@@ -109,12 +114,11 @@ function Attractions() {
                                     <div className="p-3 text-justify">
                                         <h2 className="text-base font-medium text-indigo-300 mb-1">Damdulla</h2>
                                         <h1 className="text-xl font-semibold mb-1">4. Sigiriya </h1>
-                                  <p className="leading-relaxed mb-2">Sigiriya, a UNESCO World Heritage Site nestled in the heart of Sri Lanka, is famed for its iconic Lion's Rock and rich cultural heritage. This ancient fortress holds a fascinating history, particularly associated with King Kashyapa, who ruled during the 5th century AD. Legend has it that King Kashyapa, driven by ambition and desire for power, usurped the throne by killing his father, King Dhatusena. Seeking to establish his kingdom, King Kashyapa built his royal palace atop Sigiriya Rock, surrounded by elaborate gardens and water features.
+                                  <p className="leading-relaxed mb-2">Sigiriya, designated as a UNESCO world heritage site is an ancient rock fortress, nestled in the forests of central Sri Lanka. Famed as the Lion’s Rock, Sigiriya showcases the wonder of ancient engineering and rich cultural heritage. The fortress was built  in the 5th century AD by King Kashyapa, as his royal palace when  establishing his kingdom. As the story says, King Kashyapa, driven by his ambition and desire for power, usurped the throne by killing his father, King Dathusena. The fortress is surrounded by elaborate gardens and water features.
                                   </p>
-                                  <p className="leading-relaxed mb-2">One of the most remarkable features of Sigiriya is its sophisticated water technology, which allowed for the channeling of water to the summit of the rock. This engineering marvel facilitated the creation of lush gardens and ponds, contributing to the fortress's grandeur and aesthetic appeal.
+                                  <p className="leading-relaxed mb-2">The main attraction of the place is its sophisticated and extraordinary water technology, which allowed for the channeling of water to the summit of the rock, and colorful frescoes: maidens with beautiful flowers.  This engineering marvel and exquisite artworks offer a glimpse into the fortress’s grandeur, aesthetic appeal , artistic prowess and cultural sophistication of the ancient inhabitants of Sigiriya.
                                   </p>
-                                  <p className="leading-relaxed mb-2">The rock fortress is adorned with ancient frescoes, showcasing vibrant paintings of celestial maidens, known as the Sigiriya Frescoes. These exquisite artworks offer a glimpse into the artistic prowess and cultural sophistication of the ancient inhabitants of Sigiriya.
-                                  </p>
+                                  
                                             <div className="flex items-center flex-wrap ">
                                        
                                             </div>
@@ -142,11 +146,11 @@ function Attractions() {
                                     <div className="p-3 text-justify">
                                         <h2 className="text-base font-medium text-indigo-300 mb-1">Kandy</h2>
                                         <h1 className="text-xl font-semibold mb-1">5. Dalada Maligawa</h1>
-                                  <p className="leading-relaxed mb-2">Kandy, nestled in the heart of Sri Lanka, holds profound historical and cultural significance, making it a cherished destination for travelers and pilgrims alike. At its center lies the revered Temple of the Tooth Relic, known as Dalada Maligawa, which houses the sacred tooth relic of Lord Buddha. This relic is believed to be one of the most sacred objects in Buddhism, embodying spiritual power and protection. The temple premises, with its intricate architecture and serene ambiance, serve as a sanctuary for devotees who come to pay homage to the sacred relic and seek blessings for prosperity and peace.
+                                  <p className="leading-relaxed mb-2">Nestled in the heart of Sri Lanka and surrounded by magnificent mountains, Kandy is steeped in tradition and history and is home to some of the most iconic attractions of the country. Temple of the Tooth Relic, known as Sri Dalada Maligawa houses the sacred tooth relic of the Lord Buddha, an object of veneration for Buddhists all over the world. The presence of the sacred tooth relic is believed to bring blessings, protection, and prosperity to the country and its people. The temple premises showcase exquisite Sri Lankan architecture, with intricate wood carvings, beautiful paintings, and grand halls. It is not only a religious site but also a cultural and historical treasure that showcases the rich heritage of Sri Lanka.
                                   </p>
-                                  <p className="leading-relaxed mb-2">One of the most spectacular events in Kandy is the Esala Perahera, a grand procession that takes place annually to honor the sacred tooth relic. This vibrant cultural festival features elaborately adorned elephants, traditional dancers, drummers, and fire performers parading through the streets of Kandy in a magnificent display of devotion and celebration. The Esala Perahera is not only a religious event but also a cultural extravaganza that draws thousands of spectators from around the world.
+                                  <p className="leading-relaxed mb-2">The most spectacular event in Kandy is the Esala Perahara, a grand procession that showcases Sri Lanka’s rich heritage and vibrant culture. The Perahara takes place annually to honor the sacred Tooth Relic and parade through the streets of the city in a magnificent display featuring a variety of traditional dancers, elaborately adorned elephants, festively dressed Kandyan drummers and fire performers.
                                   </p>
-                                  <p className="leading-relaxed mb-2">In addition to its religious and natural attractions, Kandy offers a wealth of other experiences for visitors to enjoy. The Royal Botanical Gardens in Peradeniya showcases an impressive collection of tropical flora, including orchids, palms, and medicinal plants. The Kandy Lake, situated in the heart of the city, provides a tranquil setting for strolls and boat rides. Visitors can also explore the bustling streets of Kandy, filled with bustling markets, artisan workshops, and culinary delights, offering a glimpse into the vibrant culture and heritage of Sri Lanka.
+                                  <p className="leading-relaxed mb-2">Apart from its religious, cultural and historical value, the city is a great place for visitors to enjoy. Kandy Lake is perfect for relaxing. The gentle breeze creates a restful and calming feeling providing a tranquil setting for strolls and boat rides. The Royal Botanical Garden is renowned for its collection of species of plants including orchids, medicinal plants and palm trees. Kandy town is ceaselessly abuzz with activity. Strings of shops crisscross the streets selling almost everything from artisan workshops to culinary delights, offering a glimpse into the vibrant culture and heritage of Sri Lanka.
                                   </p>
                                             <div className="flex items-center flex-wrap ">
                                         
@@ -175,13 +179,13 @@ function Attractions() {
                                     <div className="p-3 text-justify">
                                         <h2 className="text-base font-medium text-indigo-300 mb-1">Mannar</h2>
                                         <h1 className="text-xl font-semibold mb-1">6. Adam's Bridge</h1>
-                                      <p className="leading-relaxed mb-2">The Adam's Bridge: This chain of limestone shoals and sandbanks stretches between Mannar Island in Sri Lanka and Pamban Island in India. According to Hindu mythology, this bridge was built by Lord Rama's army of monkeys and bears to reach the kingdom of Lanka, now identified with modern-day Sri Lanka. Adam's Bridge is a major cultural and religious mark, attracting visitors to admire its natural beauty and historical importance!
+                                      <p className="leading-relaxed mb-2">It is a chain of limestone shoals that connects the northern end of country’s Mannar island to the South eastern coast of Pamban Island, India. According to Hindu mythology, the bridge is said to have been created by an army of worrier monkeys (Vanara) to aid Rama on his request to reach Kingdom of Lanka to  reclaim his wife. The place holds historical, religious and cultural importance.
                                       </p>
-                                      <p className="leading-relaxed mb-2">Mannar also holds historical significance as a former Pearl Harbor during the time of Portuguese and Muslim merchants. Remnants of this colonial past can still be seen in the fortifications and architecture found in the area. Additionally, Mannar boasts a unique baobab tree, believed to be over 700 years old, which stands as a majestic testament to the region's enduring legacy and natural beauty.
+                                      <p className="leading-relaxed mb-2">Mannar is a large island with a rich history. It was once at the center of the Island’s prosperous pearling industry during the time of Portuguese and Arab traders. The remnants of colonial past can still be seen today, offering a glimpse into its vibrant history. The famed Baobab tree, which is believed to be 700 years old not only enhances the island's beauty but also serves as a testament  to its enduring legacy.
                                       </p>
-                                      <p className="leading-relaxed mb-2">Religious sites such as the Madu Kovil and Thesawalamai Shiva Kovil further enrich Mannar's cultural landscape. These temples hold significance for both Hindu and Buddhist devotees, offering a glimpse into the region's multicultural heritage and spiritual traditions.
+                                      <p className="leading-relaxed mb-2">The sacred Catholic church, the shrine of our lady of Madhu, ancient Thanthirimale temple and Thesawalamai Shiva Kovil are key points of interest  in Mannar that enrich its cultural landscape. These sites hold a deep significance to Buddhist, Catholic and Hindu devotees showcasing the rich multicultural heritage  and spiritual diversity.
                                       </p>
-                                      <p className="leading-relaxed mb-2">Mannar's coastal wetlands are renowned for their biodiversity, attracting a plethora of migratory birds, including flamingos, herons, and pelicans, among others. The region's mangrove forests, salt pans, and lagoons provide vital habitats for these avian visitors, making Mannar a paradise for birdwatchers and nature enthusiasts alike.
+                                      <p className="leading-relaxed mb-2">Mannar is a paradise of adventure and wonderment and renowned for rich bio-diversity. It is a sanctuary for mighty migrant birds like flamingos, herons, and pelicans among others.  The mangrove forests, salt pans, and lagoons in the island creates an ideal habitat for those mighty  birds making it a haven for nature enthusiasts and bird watchers.
                                       </p>
                                             <div className="flex items-center flex-wrap ">
                                             </div>
@@ -213,23 +217,12 @@ function Attractions() {
                                     <div className="p-3 text-justify ">
                                         <h2 className="text-base font-medium text-indigo-300 mb-1">Hatton</h2>
                                         <h1 className="text-xl font-semibold mb-1">7. Sripada</h1>
-                                  <p className="leading-relaxed mb-2">Sripada, also known as Adam's Peak,
-                                      is a revered mountain in central Sri Lanka. Rising to an elevation of 2,243
-                                      meters (7,359 feet), it holds religious significance for multiple faiths,
-                                      including Buddhism, Hinduism, Christianity, and Islam. The mountain is known
-                                      for the "Sacred Footprint" at its summit, believed by different religious
-                                      traditions to be associated with the Buddha, Lord Shiva, Adam, or the Muslim
-                                      prophet Ismail.
-<br></br>
-                                      Sripada is a popular pilgrimage site, and the trek to its summit involves
-                                      ascending a steep staircase with over 5,000 steps. Pilgrims, hikers, and
-                                      nature enthusiasts are drawn to Sripada not only for its religious importance
-                                      but also for the breathtaking views from the top, especially during the
-                                      pilgrimage season from December to May. The journey up Sripada is a blend of
-                                      physical challenge, cultural exploration, and spiritual experience in the heart
-                                      of Sri Lanka.
+                                  <p className="leading-relaxed mb-2">Sri Pada also known as Adam’s Peak holds profound religious significance, attracting  thousands of pilgrims of multiple faiths including Buddhism, Hinduism, Christianity and Islam.
+The mountain is located in the southern reaches of the Central Highlands soaring up to 2243 meters (7359 feet) above the sea level. 
+                                      <p>The mountain is visited by thousands of pilgrims to pay homage to the “Sacred Footprint” at its summit believed by Buddhists as the footprint of the Buddha and Hindus, Christians and Muslims as the footprint of Lord Shiva, Adam and the Muslim prophet Ismail.</p>
                                       
-                                        </p>
+                                      The pilgrim season to the holy mountain Sri Pada begins annually from December to May. This pilgrimage site and the trek to its summit involves ascending a steep staircase with over 5,000 steps. Pilgrims, hikers, and nature enthusiasts are drawn to Sripada not only for its religious importance but also for the breathtaking views from the top. The devotees climb the mountain to invoke blessings  while the trekkers enjoy an exhilarating hike through different access routes to the summit. The journey to Sripada is a blend of physical challenge, cultural exploration and spiritual experience.
+                                     </p>
                                             <div className="flex items-center flex-wrap ">
                                             </div>
                                     </div>
@@ -250,11 +243,15 @@ function Attractions() {
                                     <div className="p-3 text-justify">
                                         <h2 className="text-base font-medium text-indigo-300 mb-1">Haputale</h2>
                                         <h1 className="text-xl font-semibold mb-1">8. Ella</h1>
-                                  <p className="leading-relaxed mb-2">Ella, nestled in the picturesque hill country of Sri Lanka, is renowned for its breathtaking natural beauty and cultural attractions. One of its most iconic landmarks is the Nine Arch Bridge, a marvel of engineering and a testament to the region's colonial past. This viaduct, constructed during the British colonial era, is surrounded by lush greenery and offers stunning views of the surrounding landscape, making it a popular spot for photographers and sightseers alike.
+                                  <p className="leading-relaxed mb-2">Tucked into Badulla District, Ella is a charming town in country’s highlands with lush green tea plantations, mountain jungles and a cool climate.
+                                      The town is most famous for its iconic Nine Arch Bridge which is a fine example of colonial-era construction in Sri Lanka. A trek down the railway track to the bridge is a popular
+                                      activity, especially around the time the train arrives.  The stunning views of the surrounding landscape makes it a popular spot for photographers and sightseers.
                                   </p>
-                                  <p className="leading-relaxed mb-2">Ella is also steeped in mythology and folklore, with several sites associated with the ancient epic Ramayana. Little Adam's Peak, named after its resemblance to the larger Adam's Peak, offers a relatively easy hike with panoramic views of the Ella Gap and surrounding mountains. Nearby, the Ravana Falls cascade gracefully down a series of rock formations, providing a refreshing retreat for visitors.
+                                  <p className="leading-relaxed mb-2">Ella is a city steeped in history with several sites associated with the ancient epic Ramayana. Little Adam’s Peak named so due to its striking
+                                      similarity to the sacred mountain Adam’s Peak (Sri Pada)  offers a relatively easy hike with panoramic views of the Ella Gap and surrounding mountains. The Ravana falls cascade
+                                      gracefully down a series of rock formations providing a gorgeous view of the neighboring nature reserve.
                                   </p>
-                                  <p className="leading-relaxed mb-2">For those seeking adventure, the Diyaluma Falls, one of the tallest waterfalls in Sri Lanka, offers the opportunity for hiking, swimming, and picnicking amidst its cascading waters and lush surroundings.
+                                  <p className="leading-relaxed mb-2">For adventure seekers, Diyaluma Falls, the second-highest waterfall offers opportunity for swimming, hiking and picnicking amidst its cascading waters and lush surroundings.
                                   </p>
                                             <div className="flex items-center flex-wrap ">
                                         
@@ -263,7 +260,6 @@ function Attractions() {
                                 </div>
                             </div>
 
-                            
                         </div>
                     </div>
 
@@ -286,24 +282,30 @@ function Attractions() {
                                     <div className="p-3 text-justify">
                                         <h2 className="text-base font-medium text-indigo-300 mb-1">Potuvil</h2>
                                         <h1 className="text-xl font-semibold mb-1">9. Arugambay</h1>
-                                          <p className="leading-relaxed mb-2">Arugam Bay, situated on the eastern coast of Sri Lanka, is renowned as a world-class surf destination, attracting
-                                              wave enthusiasts from around the globe. The surf season typically runs from April to October, when the area experiences consistent swells and favorable
-                                              wind conditions, making it ideal for surfing, windsurfing, and kite surfing.
+                                          <p className="leading-relaxed mb-2">Arugam Bay is famed as a world-class surfing destination.
+                                              It offers several surfing points with waves of different rhythms
+                                              to suit the preferences of a variety of surfers. Located in the Eastern coast of Sri Lanka,
+                                              this Surfing Paradise attracts wave enthusiasts from around the globe. The surf season runs
+                                              from April to October making it  ideal for surfing, windsurfing, and kite surfing.
                                           </p>
-                                          <p className="leading-relaxed mb-2">Beyond its reputation as a surfer's paradise, Arugam Bay boasts a rich cultural heritage and a variety of attractions
-                                              for visitors to explore. One of its notable historical sites is the Muhudu Maha Vihara, an ancient Buddhist temple believed to date back over 2,000 years.
-                                              This sacred site holds significant religious and archaeological importance, offering insights into Sri Lanka's ancient civilization.
+                                          <p className="leading-relaxed mb-2">Arugam Bay is not only a destination of surfers.
+                                              There are number of historical and archeological  attractions located in and around of
+                                              Arugam Bay. One key attraction is Muhudu Maha Vharaya, an ancient Buddhist temple with 2000
+                                              years of history.  This sacred site holds historical and archaeological importance, offering
+                                              insights into Sri Lanka's ancient civilization.
                                           </p>
-                                          <p className="leading-relaxed mb-2">The coastline of Arugam Bay is dotted with pristine beaches, each with its own unique charm and character. Elephant Rock
-                                              Beach, named for its distinctive rock formation resembling an elephant, is a popular spot for sunbathing, swimming, and snorkeling. Visitors can also enjoy
-                                              beachside activities such as beach volleyball, yoga sessions, and traditional drumming performances.
-                                              In addition to its natural beauty and water sports, Arugam Bay offers a vibrant cultural scene, with lively beach bars, seafood restaurants, and local markets
-                                              lining the shore. Visitors can immerse themselves in the laid-back atmosphere of the town, sampling fresh seafood delicacies, browsing for handmade crafts, and
-                                              mingling with locals and fellow travelers.
-                                          </p>
-                                          <p className="leading-relaxed mb-2">Other attractions in Arugam Bay include wildlife safaris to nearby national parks such as Yala and Kumana, where visitors can
-                                              spot a variety of exotic wildlife, including elephants, leopards, and birds. The nearby Pottuvil Lagoon offers opportunities for birdwatching, kayaking, and
-                                              boat tours, allowing visitors to explore the region's diverse ecosystems and natural beauty.
+                                          <p className="leading-relaxed mb-2">The coastline of Arugam Bay is perfect for exploring white
+                                              sandy beaches. Elephant Rock, named after the rock’s supposed resemblance to an elephant,
+                                              is an extremely popular spot for sunbathing, swimming, and snorkeling. Visitors can also enjoy
+                                              beachside activities such as beach volleyball, yoga sessions, and traditional drumming
+                                              performances. Besides its natural beauty and water sport, Arugam Bay offers lively atmosphere
+                                              with beach bars, seafood restaurants, and local markets in the shore.
+                                             </p>
+                                          <p className="leading-relaxed mb-2">Among the other natural attractions in Arugam Bay,
+                                              national parks like Kumana and Yala offers ideal spots for a variety of exotic wildlife,
+                                              including elephants, leopards, and birds. The Pottuvil Lagoon nearby offers unique
+                                              opportunities for bird watching, kayaking and  boat tours, allowing visitors to explore the
+                                              diverse ecosystem and natural beauty of the region.
                                           </p>
                                             <div className="flex items-center flex-wrap ">
                                        
@@ -312,11 +314,8 @@ function Attractions() {
                                 </div>
                             </div>
 
-                            
                         </div>
                     </div>
-
-                    
           </div>
                     </div>
           </div>
@@ -333,57 +332,56 @@ function Attractions() {
                                     <div className="p-3 text-justify ">
                                         <h2 className="text-base font-medium text-indigo-300 mb-1">Tissamaharama</h2>
                                         <h1 className="text-xl font-semibold mb-1">10. Yala National Park</h1>
-                                  <p className="leading-relaxed mb-2">Yala National Park, situated in the southeastern region of Sri
-                                      Lanka, stands as the country's most renowned wildlife sanctuary. Spanning a diverse range of ecosystems,
-                                      including dense jungles, expansive grasslands, and coastal areas, Yala is celebrated for its rich biodiversity.
-                                      Home to elephants, leopards, crocodiles, deer, and numerous bird species, the park offers a unique safari experience
-                                      for wildlife enthusiasts. With picturesque landscapes and a variety of habitats, Yala National Park provides
-                                      a captivating environment for visitors to observe and appreciate the natural beauty and wildlife of Sri Lanka.
-                                      
-                                        </p>
+                                  <p className="leading-relaxed mb-2">Yala National Park  is the second largest wild sanctuary located
+                                      on the southeastern tip of the country. The park is widely known for its incredible bio-diversity
+                                      as it hosts a variety of ecosystems ranging from dense forests, vast grasslands, freshwater
+                                      wetlands, to marine ecosystems.  It is rich in wildlife and home to a great variety of species
+                                      like elephants, leopards, crocodiles, deer and numerous birds  and offers a unique safari
+                                      experience for wildlife enthusiasts.  With picturesque landscapes and a variety of habitats,
+                                      Yala National Park promises an unforgettable adventure into the heart of Sri Lanka’s wildlife
+                                      and  natural beauty.
+                                  </p>
                                             <div className="flex items-center flex-wrap ">
                                             </div>
                                     </div>
                                 </div>
                             </div>
-
-                            
                         </div>
                     </div>
 
                     <div className="container px-1 py-1 mx-auto">
-                        
+
                         <div className="flex">
                             <div className="flex p-1">
-                          
+
                                 <div className=" flex h-full flex-col lg:flex-row md:flex-row lg:mt-[1px] md:mt-[2px] sm:mt-[1px] border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                                    
                               <img className="lg:h-60 md:h-48 sm:h-32 w-full object-cover object-center pr-1"
                                       src="/mirissa.jpg" alt="Mirissa" />
                                    
-                
                                     <div className="p-3 text-justify ">
                                         <h2 className="text-base font-medium text-indigo-300 mb-1"> Matara</h2>
                                         <h1 className="text-xl font-semibold mb-1">11. Mirissa</h1>
-                                  <p className="leading-relaxed mb-2">Mirissa, located on the southern coast of Sri Lanka,
-                                      is a captivating beach destination known for its pristine sandy shores, turquoise waters,
-                                      and vibrant atmosphere. Renowned for its relaxed vibes, Mirissa offers a perfect blend of sun,
-                                      sea, sand and surf. The beach is adorned with palm trees, and the coastline is dotted with cozy cafes and
-                                      restaurants serving fresh seafood. Mirissa is not only a haven for beach lovers but also a popular spot
-                                      for whale watching, providing the opportunity to witness majestic marine life, including blue whales and
-                                      dolphins. The laid-back charm, stunning sunsets, and diverse activities make Mirissa a sought-after destination
-                                      for travelers seeking a tranquil and scenic escape in the tropical paradise of Sri Lanka.
-                                      
+                                  <p className="leading-relaxed mb-2">Mirissa is one of the most popular beach destinations
+                                      in southern Sri Lanka.  With soft white sand, palm trees, hot sun and safe swimming
+                                      conditions the place is renowned for its relaxed vibes. The beach stretches far along
+                                      the coast and is the perfect place to soak up the sun  and to watch sunset. The number
+                                      of cafes and restaurants back onto the beach serves fresh seafood. Mirissa is not only
+                                      a haven for beach lovers but also island’s main whale watching spot. Visitors can enjoy
+                                      a whale watching excursion to spot blue whales or dolphins. With its laid-back charm,
+                                      Mirissa is a sanctuary of peace letting the travelers experience  the softness of sand
+                                      while witnessing the mesmerizing sunset.
                                   </p>
-                                  <p className="leading-relaxed mb-2">The beaches of Mirissa are bustling hubs of activity, with both local and foreign vendors offering an array of goods and services. From beachside cafes serving up fresh seafood dishes to souvenir shops selling handmade crafts and clothing, there's something for everyone to enjoy.
+                                  <p className="leading-relaxed mb-2">The beaches of Mirissa has  everything a traveler desires,
+                                      both local and foreign vendors offering an array of goods and services. From beachside cafes
+                                      serving up fresh seafood dishes to souvenir shops selling handmade crafts and clothing,
+                                      there's something for everyone to enjoy.
                                   </p>
                                             <div className="flex items-center flex-wrap ">
                                             </div>
                                     </div>
                                 </div>
                             </div>
-
-                            
                         </div>
                     </div>
           </div>
@@ -405,16 +403,18 @@ function Attractions() {
                                     <div className="p-3 text-justify">
                                         <h2 className="text-base font-medium text-indigo-300 mb-1">Galle</h2>
                                         <h1 className="text-xl font-semibold mb-1">12. Dutch Fort</h1>
-                                  <p className="leading-relaxed mb-2">The Galle Dutch Fort, located on the southwest
-                                      coast of Sri Lanka, is a historic fortress with a rich colonial heritage. Constructed
-                                      by the Dutch in the 17th century and later fortified by the British, the fort stands as
-                                      a UNESCO World Heritage Site. It features well-preserved ramparts, bastions, and cobblestone
-                                      streets, showcasing a blend of Dutch and Portuguese architectural influences. Within the fort walls,
-                                      visitors can explore a charming mix of colonial-era buildings, boutique shops, cafes, and museums.
-                                      The Galle Dutch Fort is not only a testament to Sri Lanka's colonial past but also a vibrant and
-                                      captivating destination that attracts tourists with its historical significance and picturesque surroundings.
-                                      
-                                        </p>
+                                  <p className="leading-relaxed mb-2">Galle Dutch Fort, located in south-west of Sri
+                                      Lanka is  one of the best-preserved forts in South Asia. The historic fortress
+                                      which epitomizes Dutch colonial architecture was constructed by the Dutch in the
+                                      17th century and later fortified by the British and stands as a UNESCO World Heritage
+                                      Site. Well-preserved features of the Fort like ramparts, bastions and cobblestone
+                                      streets showcases a blend of Dutch and Portuguese architectural influence. Trendy
+                                      cafes, boutique shops, and museums within the fort walls add a unique character to
+                                      the atmosphere of the fort’s colonial streets. Visitors can spend an entire day
+                                      exploring the beauty of Galle Fort by shopping, watching sunset and exploring the
+                                      history. The Galle Dutch Fort is  a testament to Sri Lanka's colonial past and also
+                                      a captivating destination that attracts tourists with its picturesque surroundings.
+                                  </p>
                                             <div className="flex items-center flex-wrap ">
                                         {/* <Link href="/Places" className="text-indigo-300 inline-flex items-center md:mb-2 lg:mb-0"> Search details
                                             <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
