@@ -4,7 +4,8 @@ import { Raleway } from 'next/font/google'
 import './globals.css'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-import ChatBot from '../components/Chatbot';
+// import Openchat from '../components/Openchat'
+import Chatbot from '../components/Chatbot'
 
 const raleway = Raleway ({subsets:['latin']})
 
@@ -13,8 +14,7 @@ const raleway = Raleway ({subsets:['latin']})
   description: 'Sri Lanka travel information site. Search for places to see, stay and eat. Find information such as VISA and Driving Licensing.Read about the history and current situation of the Island. Plan for weddings, events and photography. Checkout the major festivals. Reach out for trip tips from locals'
  }
 
-export default function RootLayout({
-  children,
+export default function RootLayout({ children,
 }: {
     children: React.ReactNode;
   }) {
@@ -25,10 +25,11 @@ export default function RootLayout({
         <head>
           <title>{metadata.title}</title>
           <meta name="description" content={metadata.description} />
-          
+          <meta name="google-adsense-account" content="ca-pub-6035916583698763"></meta>
           <link rel="icon" href='/logo.jpg' />
           <link rel="preload" href="https://www.gotravelsrilanka.com/_next/static/css/40292f52c9994538.css" as="style" />
           <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+
           <style>
             {`
               df-messenger {
@@ -48,8 +49,7 @@ export default function RootLayout({
                     <Header />
                     {children}
                   <Footer />
-          <ChatBot />
-          
+          <Chatbot />
              
             </body>
       </html>
